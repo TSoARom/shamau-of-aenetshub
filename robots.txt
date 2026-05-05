@@ -1,0 +1,5 @@
+# robots.txt for Shamau of Aenetshub
+User-agent: *
+Allow: /
+
+Sitemap: https://shamau-of-aenetshub.github.io/sitemap.xml
