@@ -142,4 +142,42 @@
     });
   });
 
+  // --- Language Switcher ---
+  var langToggle = document.getElementById('lang-toggle');
+  var htmlEl = document.documentElement;
+  var i18nElements = document.querySelectorAll('[data-i18n]');
+
+  function getCurrentLang() {
+    return localStorage.getItem('shamau-lang') || 'en';
+  }
+
+  function setLanguage(lang) {
+    if (typeof LANG === 'undefined') return;
+    htmlEl.setAttribute('lang', lang === 'ro' ? 'ro' : 'en');
+    localStorage.setItem('shamau-lang', lang);
+
+    i18nElements.forEach(function (el) {
+      var key = el.getAttribute('data-i18n');
+      if (LANG[key] && LANG[key][lang]) {
+        el.innerHTML = LANG[key][lang];
+      }
+    });
+
+    // Update the toggle button text
+    if (langToggle) {
+      langToggle.innerHTML = lang === 'en' ? 'RO' : 'ENG';
+    }
+  }
+
+  // Initialize language on page load
+  if (langToggle && typeof LANG !== 'undefined') {
+    var savedLang = getCurrentLang();
+    setLanguage(savedLang);
+
+    langToggle.addEventListener('click', function () {
+      var current = getCurrentLang();
+      setLanguage(current === 'en' ? 'ro' : 'en');
+    });
+  }
+
 })();
