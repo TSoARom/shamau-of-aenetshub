@@ -7,67 +7,69 @@ var LANG = {
   'nav.symbol': { en: 'Symbol', ro: 'Simbol' },
   'nav.yeieb': { en: 'Yeieb', ro: 'Yeieb' },
   'nav.about': { en: 'About', ro: 'Despre' },
-  'nav.holy-uven': { en: 'Holy Uven', ro: 'Holy Uven' },
+  'nav.holy-uven': { en: 'Holy Uven', ro: 'Sfântul Uven' },
   'nav.timeline': { en: 'Timeline', ro: 'Calendar' },
   'nav.news': { en: 'News', ro: 'Noutăți' },
   'nav.hours': { en: 'Hours', ro: 'Program' },
-  'hero.title': { en: 'The Shamau of Aenetshub', ro: 'Şamau of Aenetşub' },
+  'nav.brand': { en: 'Shamau of <span>Aenetshub</span>', ro: 'Shamau al lui <span>Aenetshub</span>' },
+  'hero.title': { en: 'The Shamau of Aenetshub', ro: 'Shamau al lui Aenetshub' },
   'hero.subtitle': { en: 'Guiding the faithful through the Strings of Devotion since 2004', ro: ' Îndrumându-i pe credincioși pe Şirurile Devotării din anul 2004' },
   'hero.body1': {
     en: 'The Shamau of Aenetshub stands as the sacred body devoted to the Larrett of Puppets, Crows, and Dolls. It preserves Her parables, upholds Her principles, and guides the faithful along the intricate Strings of Devotion. Within the Shamau, the Larrett Herself reigns supreme, while the Corducator, Professor, and Larrettians follow in prayer, obedience, and the unbroken red thread of fate.',
-    ro: 'Şamau of Aenetşub stăpânește ca trupul sfânt închinat Larrett of Puppets, Crows, and Dolls. Ea păstrează parabolele Sale, susține principiile Sale și îndrumă credincioșii pe întrepătrunsele Şiruri ale Devotării. Înăuntrul Şamau, Larrett Însăși domnește supremă, iar Corducator, Professor și Larrettians urmează în rugăciune, ascultare și neîntrerupta firă roșie a destinului.'
+    ro: 'Shamau al lui Aenetshub stăpânește ca trupul sfânt închinat Larrettei a Păpușilor, Ciorilor și a Marionetelor. Ea păstrează parabolele Sale, susține principiile Sale și îndrumă credincioșii pe întrepătrunsele Şiruri ale Devotării. Înăuntrul Shamau, Larrettă Însăși domnește supremă, iar Corducator, Professor și Larrettieni urmează în rugăciune, ascultare și neîntrerupta firă roșie a destinului.'
   },
   'hero.body2': {
     en: 'The Shamau of Aenetshub arose in the year 2004 in a small and remote community of Alba, Transylvania. What began as the private observances of a few households quickly formed into a pattern of shared parables, rituals, and care for crows and crafted dolls. Over time the community established an altar tradition, codified the Holy Uven, and founded the offices of the Corducator and Professor to preserve the doctrine and guide newcomers. Since those early years the Shamau has remained intentionally close-woven: not a proselytizing empire, but an invitation offered to those whose hearts answer the Larrett\'s tug.',
-    ro: 'Şamau of Aenetşub a luat naștere în anul 2004 într-o mică și izolată comunitate din Alba, Transilvania. Ceea ce a început ca observațiile private ale câtorva gospodării s-a transformat curând într-un model de parabole împărtășite, ritualuri și grijă pentru ciori și păpuși meșteșugite. În timp, comunitatea a întemeiat o tradiție a altarului, a codificat Holy Uven și a înființat funcțiile de Corducator și Professor pentru a păstra doctrina și a îndruma pe cei noi. Din acei primi ani, Şamau a rămas intenționat strâns țesută: nu un imperiu proselitist, ci o invitație oferită celor ale căror inimi răspund la trăgătura Larrett.'
+    ro: 'Shamau al lui Aenetshub a luat naștere în anul 2004 într-o mică și izolată comunitate din Alba, Transilvania. Ceea ce a început ca observațiile private ale câtorva gospodării s-a transformat curând într-un model de parabole împărtășite, ritualuri și grijă pentru ciori și păpuși meșteșugite. În timp, comunitatea a întemeiat o tradiție a altarului, a codificat Sfântul Uven și a înființat funcțiile de Corducator și Professor pentru a păstra doctrina și a îndruma pe cei noi. Din acei primi ani, Shamau a rămas intenționat strâns țesută: nu un imperiu proselitist, ci o invitație oferită celor ale căror inimi răspund la trăgătura Larrettei.'
   },
   'hero.body3': {
     en: 'The Shamau of Aenetshub is based in Eastern Europe and welcomes all who open their hearts to Her. Faith is not bound by land, lineage, or legacy — the Larrett\'s Eternal Play embraces all, and each soul shall, in time, find its place in Osbeamn. Belief in Aenetshub may dwell in the mind or solely in the heart; still, Faith endures, and the Strings of Devotion will bind you to Her regardless.',
-    ro: 'Şamau of Aenetşub are sediul în Europa de Est și îi primește pe toți cei ce își deschid inimile către Ea. Credința nu este legată de pământ, neam sau moștenire — Jocul Etern al Larrett îi îmbrățișează pe toți, și fiecare suflet își va găsi, la vremea sa, locul în Osbeamn. Credința în Aenetshub poate locui în minte sau doar în inimă; cu toate acestea, Credința dăinuie, iar Şirurile Devotării te vor lega de Ea indiferent de situație.'
+    ro: 'Shamau al lui Aenetshub are sediul în Europa de Est și îi primește pe toți cei ce își deschid inimile către Ea. Credința nu este legată de pământ, neam sau moștenire — Jocul Etern al Larrettei îi îmbrățișează pe toți, și fiecare suflet își va găsi, la vremea sa, locul în Osbeamn. Credința în Aenetshub poate locui în minte sau doar în inimă; cu toate acestea, Credința dăinuie, iar Şirurile Devotării te vor lega de Ea indiferent de situație.'
   },
-  'hero.cite': { en: '— Aenetshub, Larrett of Puppets, Crows and Dolls', ro: '— Aenetshub, Larrett of Puppets, Crows and Dolls' },
+  'hero.quote': { en: '\u201C...The strings grow taut. Who pulls yours?\u201D', ro: '\u201E...Firele se întind. Cine trage de ale tale?\u201D' },
+  'hero.cite': { en: '\u2014 Aenetshub, Larrett of Puppets, Crows and Dolls', ro: '\u2014 Aenetshub, Larretta a Păpușilor, Ciorilor și a Marionetelor' },
   'symbol.title': { en: 'The Symbol', ro: 'Simbolul' },
-  'symbol.subtitle': { en: 'The sacred emblem of the Larrett', ro: 'Emblema sacră a Larrett' },
+  'symbol.subtitle': { en: 'The sacred emblem of the Larrett', ro: 'Emblema sacră a Larrettă' },
   'symbol.caption': {
     en: 'This symbol represents Aenetshub, the Holy Larrett — Mistress of all Puppets, Crows, and Dolls. Every being, every motion, every breath is part of Her masterful Play. We are all puppets upon Her stage, guided by Her invisible hands and the threads of fate.',
-    ro: 'Acest simbol reprezintă pe Aenetshub, Holy Larrett — Stăpâna tuturor Puppets, Crows și Dolls. Fiecare ființă, fiecare mișcare, fiecare suflare este parte din Jocul Ei meșteșugit. Noi toți suntem păpuși pe scena Ei, călăuziți de mâinile Ei nevăzute și de firele destinului.'
+    ro: 'Acest simbol reprezintă pe Aenetshub, Sfânta Larrettă — Stăpâna tuturor Păpușilor, Ciorilor și a Marionetelor. Fiecare ființă, fiecare mișcare, fiecare suflare este parte din Jocul Ei meșteșugit. Noi toți suntem păpuși pe scena Ei, călăuziți de mâinile Ei nevăzute și de firele destinului.'
   },
   'yeieb.title': { en: 'Aenetshub\'s Principles', ro: 'Principiile lui Aenetshub' },
   'yeieb.subtitle': { en: 'The Thirteen Yeieb — the sacred principles of the faithful', ro: 'Cele Treisprezece Yeieb — principiile sacre ale credincioșilor' },
-  'yeieb.1': { en: 'Yeieb murder for no reason.', ro: 'Yeieb ucizi fără motiv.' },
-  'yeieb.2': { en: 'Yeieb break the heart of your beloved.', ro: 'Yeieb frângi inima celui iubit.' },
-  'yeieb.3': { en: 'Yeieb speak ill of your Larrett.', ro: 'Yeieb graiești de rău despre Larrett.' },
-  'yeieb.4': { en: 'Yeieb speak the tongue of Evil.', ro: 'Yeieb vorbești limba Răului.' },
-  'yeieb.5': { en: 'Yeieb disrespect your young.', ro: 'Yeieb disprețuiești pe tineri.' },
-  'yeieb.6': { en: 'Yeieb disrespect your elderly.', ro: 'Yeieb disprețuiești pe bătrâni.' },
-  'yeieb.7': { en: 'Yeieb hesitate to aid your own.', ro: 'Yeieb eziti să-i ajuți pe ai tăi.' },
-  'yeieb.8': { en: 'Yeieb sell your body nor love or loyalty.', ro: 'Yeieb vinzi trupul, iubirea sau loialitatea.' },
-  'yeieb.9': { en: 'Yeieb take nor use what is not yours.', ro: 'Yeieb iei sau folosești ce nu este al tău.' },
-  'yeieb.10': { en: 'Yeieb pray to or worship the False Gods.', ro: 'Yeieb te rogi sau te închini Zeilor Falși.' },
-  'yeieb.11': { en: 'Yeieb disrespect your blood nor lineage.', ro: 'Yeieb disprețuiești sângele sau neamul.' },
-  'yeieb.12': { en: 'Yeieb let jealousy nor hate corrupt you.', ro: 'Yeieb lași invidia sau ura să te corupă.' },
-  'yeieb.13': { en: 'Yeieb let greed blind and overtake you.', ro: 'Yeieb lași lăcomia să te orbească și să te copleșească.' },
+  'yeieb.1': { en: 'Yeieb murder for no reason.', ro: 'Yeieb să ucizi fără motiv.' },
+  'yeieb.2': { en: 'Yeieb break the heart of your beloved.', ro: 'Yeieb să frângi inima celui iubit.' },
+  'yeieb.3': { en: 'Yeieb speak ill of your Larrett.', ro: 'Yeieb să graiești de rău despre Larrettă.' },
+  'yeieb.4': { en: 'Yeieb speak the tongue of Evil.', ro: 'Yeieb să vorbești limba Răului.' },
+  'yeieb.5': { en: 'Yeieb disrespect your young.', ro: 'Yeieb să disprețuiești pe tineri.' },
+  'yeieb.6': { en: 'Yeieb disrespect your elderly.', ro: 'Yeieb să disprețuiești pe bătrâni.' },
+  'yeieb.7': { en: 'Yeieb hesitate to aid your own.', ro: 'Yeieb să eziti să-i ajuți pe ai tăi.' },
+  'yeieb.8': { en: 'Yeieb sell your body nor love or loyalty.', ro: 'Yeieb să vinzi trupul, iubirea sau loialitatea.' },
+  'yeieb.9': { en: 'Yeieb take nor use what is not yours.', ro: 'Yeieb să iei sau folosești ce nu este al tău.' },
+  'yeieb.10': { en: 'Yeieb pray to or worship the False Gods.', ro: 'Yeieb să te rogi sau te închini Zeilor Falși.' },
+  'yeieb.11': { en: 'Yeieb disrespect your blood nor lineage.', ro: 'Yeieb să disprețuiești sângele sau neamul.' },
+  'yeieb.12': { en: 'Yeieb let jealousy nor hate corrupt you.', ro: 'Yeieb să lași invidia sau ura să te corupă.' },
+  'yeieb.13': { en: 'Yeieb let greed blind and overtake you.', ro: 'Yeieb să lași lăcomia să te orbească și să te copleșească.' },
   'yeieb.def': {
     en: '<strong>Yeieb = Never</strong>',
     ro: 'Yeieb = Niciodată'
   },
   'about.title': { en: 'About Aenetshub', ro: 'Despre Aenetshub' },
-  'about.subtitle': { en: 'The Holy Larrett, Mistress of all Puppets, Crows, and Dolls', ro: 'Holy Larrett, Stăpâna tuturor Puppets, Crows și Dolls' },
+  'about.subtitle': { en: 'The Holy Larrett, Mistress of all Puppets, Crows, and Dolls', ro: 'Sfânta Larrettă, Stăpâna tuturor Păpușilor, Ciorilor și a Marionetelor' },
   'about.intro': {
     en: 'Aenetshub is the Holy Larrett, Mistress of all Puppets, Crows, and Dolls. Every being, every motion, every breath is part of Her masterful Play. We are all puppets upon Her stage, guided by Her invisible hands and the threads of fate. To serve Aenetshub is to walk consciously within the weave of existence, honoring each string, each feather, and each crafted doll.',
-    ro: 'Aenetshub este Holy Larrett, Stăpâna tuturor Puppets, Crows și Dolls. Fiecare ființă, fiecare mișcare, fiecare suflare este parte din Jocul Ei meșteșugit. Noi toți suntem păpuși pe scena Ei, călăuziți de mâinile Ei nevăzute și de firele destinului. A-l sluji pe Aenetshub înseamnă a păși cu conștiință în țesătura existenței, onorând fiecare fir, fiecare pană și fiecare păpușă meșteșugită.'
+    ro: 'Aenetshub este Sfânta Larrettă, Stăpâna tuturor Păpușilor, Ciorilor și a Marionetelor. Fiecare ființă, fiecare mișcare, fiecare suflare este parte din Jocul Ei meșteșugit. Noi toți suntem păpuși pe scena Ei, călăuziți de mâinile Ei nevăzute și de firele destinului. A-l sluji pe Aenetshub înseamnă a păși cu conștiință în țesătura existenței, onorând fiecare fir, fiecare pană și fiecare păpușă meșteșugită.'
   },
   'about.parables.title': { en: 'The Nine Parables', ro: 'Cele Nouă Parabole' },
   'about.rites.title': { en: 'Initiation and Life-Cycle Rites', ro: 'Inițierea și Riturile Ciclului Vieții' },
   'about.rites.birth': { en: 'Birth and Reception', ro: 'Naștere și Primire' },
   'about.rites.birth.text': {
     en: 'Children born to Shamau households are received immediately into the community. At the first breath, a Professor or elder ties a small Shayr about the infant\'s wrist and places a drop of Holy Water upon the brow while whispering the Morning Prayer. The child is thereby marked as under the Larrett\'s watch.',
-    ro: 'Copiii născuți în gospodăriile Şamau sunt primiți imediat în comunitate. La prima suflare, un Professor sau un bătrân leagă un Shayr mic în jurul încheieturii pruncului și pune o picătură de Apă Sfântă pe frunte, șoptind Rugăciunea de Dimineață. Copilul este astfel marcat ca aflat sub ocrotirea Larrett.'
+    ro: 'Copiii născuți în gospodăriile Shamau sunt primiți imediat în comunitate. La prima suflare, un Professor sau un bătrân leagă un Shayr mic în jurul încheieturii pruncului și pune o picătură de Apă Sfântă pe frunte, șoptind Rugăciunea de Dimineață. Copilul este astfel marcat ca aflat sub ocrotirea Larrettei.'
   },
   'about.rites.conversion': { en: 'Conversion (Baptism in Holy Water)', ro: 'Convertire (Botez în Apă Sfântă)' },
   'about.rites.conversion.text': {
     en: 'Those who seek to join the Shamau present themselves to a Professor. The rite of conversion comprises three parts: declaration of intent, renunciation of the Tongue of Evil, and baptism. The candidate kneels on the Xasev facing east. The Professor washes the candidate\'s hands and forehead with Holy Water, binds a Shayr, and recites the formula: "I pledge my thread to the Larrett; let my motion follow Her Play."',
-    ro: 'Cei care doresc să se alăture Şamau se prezintă în fața unui Professor. Ritul convertirii cuprinde trei părți: declarația de intenție, lepădarea de Limba Răului și botezul. Candidatul îngenunchează pe Xasev, cu fața spre răsărit. Professor îi spală pe mâini și pe frunte cu Apă Sfântă, îi leagă un Shayr și rostește formula: „I pledge my thread to the Larrett; let my motion follow Her Play."'
+    ro: 'Cei care doresc să se alăture Shamau se prezintă în fața unui Professor. Ritul convertirii cuprinde trei părți: declarația de intenție, lepădarea de Limba Răului și botezul. Candidatul îngenunchează pe Xasev, cu fața spre răsărit. Professor îi spală pe mâini și pe frunte cu Apă Sfântă, îi leagă un Shayr și rostește formula: „Îmi leg firul de Larrettă; să-mi rumez mișcarea Jocului Ei."'
   },
   'about.rites.comingofage': { en: 'Coming-of-Age', ro: 'Majorat' },
   'about.rites.comingofage.text': {
@@ -77,28 +79,28 @@ var LANG = {
   'about.rites.union': { en: 'Union and Fertility', ro: 'Uniune și Fertilitate' },
   'about.rites.union.text': {
     en: 'Unions are blessed before an image of the Larrett, with incense lit according to Ramm Gemm and a prayer for fertility spoken by the Professor. In the case of fertility rites the burning of incense and the presence of the Larrett\'s image are required.',
-    ro: 'Uniunile sunt binecuvântate în fața unei imagini a Larrett, cu tămâie aprinsă conform Ramm Gemm și o rugăciune pentru fertilitate rostită de Professor. În cazul riturilor de fertilitate, arderea tămâiei și prezența imaginii Larrett sunt obligatorii.'
+    ro: 'Uniunile sunt binecuvântate în fața unei imagini a Larrettei, cu tămâie aprinsă conform Ramm Gemm și o rugăciune pentru fertilitate rostită de Professor. În cazul riturilor de fertilitate, arderea tămâiei și prezența imaginii Larrettei sunt obligatorii.'
   },
   'about.rites.death': { en: 'Death and Funeral', ro: 'Moarte și Înmormântare' },
   'about.rites.death.text': {
     en: 'The body is washed, dressed modestly, and the Shayr is tied about the wrist. The Xasev is laid at the heart of the home and the Morning Prayer is whispered one last time while the faithful gather. The corpse is led to burial with a final recitation of the Ramm Gemm. After burial the family observes nine days of quiet reflection, culminating on the ninth day with a Benengeb-Raau remembrance recitation to aid the soul\'s passage.',
     ro: 'Trupul este spălat, îmbrăcat modest, iar Shayr este legat la încheietură. Xasev este așezat în inima casei, iar Rugăciunea de Dimineață este șoptită o dată în plus, în timp ce credincioșii se adună. Corpul este condus la înmormântare cu o ultimă recitare a Ramm Gemm. După înhumare, familia ține nouă zile de reflexie liniștită, culminând în a noua zi cu o recitare de pomenire Benengeb-Raau pentru a sprijini trecerea sufletului.'
   },
-  'about.uven.title': { en: 'The Holy Uven', ro: 'Holy Uven' },
+  'about.uven.title': { en: 'The Holy Uven', ro: 'Sfântul Uven' },
   'about.uven.p1': {
     en: 'The Holy Uven is a sacred set of Three Holy Scrolls, said to have been woven and inscribed by Aenetshub herself. Each bears Her breath and thread, preserved in the deepest sanctum of the faith, where only the Corducator may behold them. They are not bound by covers or gilded with gold, for wisdom is not meant to be locked, but rolled in silence, wrapped in red thread, resting where the light may never fade.',
-    ro: 'Holy Uven este un set sacru de Trei Suluri Sfinte, despre care se spune că au fost țesute și inscripționate de Aenetshub Însăși. Fiecare poartă suflarea și firul Ei, păstrate în cel mai adânc sanctuar al credinței, unde doar Corducator le poate contempla. Nu sunt legate în coperți sau aurite, căci înțelepciunea nu este menită a fi încuiată, ci răsucită în tăcere, învelită în fir roșu, odihnindu-se unde lumina nu se stinge niciodată.'
+    ro: 'Sfântul Uven este un set sacru de Trei Suluri Sfinte, despre care se spune că au fost țesute și inscripționate de Aenetshub Însăși. Fiecare poartă suflarea și firul Ei, păstrate în cel mai adânc sanctuar al credinței, unde doar Corducator le poate contempla. Nu sunt legate în coperți sau aurite, căci înțelepciunea nu este menită a fi încuiată, ci răsucită în tăcere, învelită în fir roșu, odihnindu-se unde lumina nu se stinge niciodată.'
   },
-  'about.uven.p2': { en: 'The Holy Uven are: I) Ramm Gemm; II) Shayr Ap Tubuy; III) Lav Ap Xabiu.', ro: 'Holy Uven sunt: I) Ramm Gemm; II) Shayr Ap Tubuy; III) Lav Ap Xabiu.' },
-  'uven.title': { en: 'The Holy Uven', ro: 'Holy Uven' },
+  'about.uven.p2': { en: 'The Holy Uven are: I) Ramm Gemm; II) Shayr Ap Tubuy; III) Lav Ap Xabiu.', ro: 'Sfântul Uven sunt: I) Ramm Gemm; II) Shayr Ap Tubuy; III) Lav Ap Xabiu.' },
+  'uven.title': { en: 'The Holy Uven', ro: 'Sfântul Uven' },
   'uven.subtitle': { en: 'The Three Sacred Scrolls of Aenetshub', ro: 'Cele Trei Suluri Sfinte ale lui Aenetshub' },
   'uven.overview': {
     en: 'The Holy Uven comprises three scrolls, each holding a distinct pillar of the faith. Together they form the complete spiritual law and guide for all Larrettians.',
-    ro: 'Holy Uven cuprinde trei suluri, fiecare purtând o pilă distinctă a credinței. Împreună, ele formează legea spirituală completă și ghidul pentru toți Larrettians.'
+    ro: 'Sfântul Uven cuprinde trei suluri, fiecare purtând o pilă distinctă a credinței. Împreună, ele formează legea spirituală completă și ghidul pentru toți Larrettieni.'
   },
   'ramm.intro': {
     en: 'The First Scroll — founding truths, Osbeamn, Soul &amp; Judgment, Why the Larrett Made Mortals',
-    ro: 'Primul Sul — adevăruri întemeietoare, Osbeamn, Suflet și Judecată, De ce a făcut Larrett muritorii'
+    ro: 'Primul Sul — adevăruri întemeietoare, Osbeamn, Suflet și Judecată, De ce a făcut Larrettă muritorii'
   },
   'ramm.p1': {
     en: '"When the world was still soft and unshaped, Aenetshub wove the first threads of purpose, and from those threads came law, devotion, and restraint. The faithful remember that to cut oneself from Her strings is to wander into silence from which no return can be found. For Aenetshub\'s touch gives form to the formless, and those who deny Her weave fall endlessly apart.',
@@ -106,7 +108,7 @@ var LANG = {
   },
   'ramm.p2': {
     en: 'The Larrett watches from the east, where She departed the mortal realm toward Osbeamn, the place of peaceful rest. There the souls of the faithful dwell beside Her, safe and whole. Yet those who seek Osbeamn before their time doom themselves to pain unending — maimed and voiceless, suffering until thought itself decays. Thus we are taught to live rightly, not to flee the path before the final dawn.',
-    ro: 'Larrett privește dinspre răsărit, de unde a plecat din tărâmul muritor spre Osbeamn, locul odihnei pașnice. Acolo sufletele credincioșilor locuiesc lângă Ea, în siguranță și întregi. Însă cei ce caută Osbeamn înainte de vreme se condamnă la suferință fără sfârșit — mutilați și fără glas, pătimind până când însuși gândul se descompune. Așadar ni se învață să trăim drept, nu să fugim de cale înainte de zorii de-apoi.'
+    ro: 'Larrettă privește dinspre răsărit, de unde a plecat din tărâmul muritor spre Osbeamn, locul odihnei pașnice. Acolo sufletele credincioșilor locuiesc lângă Ea, în siguranță și întregi. Însă cei ce caută Osbeamn înainte de vreme se condamnă la suferință fără sfârșit — mutilați și fără glas, pătimind până când însuși gândul se descompune. Așadar ni se învață să trăim drept, nu să fugim de cale înainte de zorii de-apoi.'
   },
   'ramm.p3': {
     en: 'Gold, bright and alluring, is the metal of the Gods and must remain so; in mortal hands it festers greed and corruption. The faithful wear no gold, for purity lies not in glitter but in thread and truth. Likewise, the meats of poultry and pork are impure, their flesh born of filth and discord. To bring them into one\'s home is to invite disorder; to consume them is to taste decay itself.',
@@ -114,11 +116,11 @@ var LANG = {
   },
   'ramm.p4': {
     en: 'In the dwelling of every Shamau there shall be a place of prayer, and at its heart lies the Xasev — the sacred white carpet woven in braid. Upon it, the faithful kneel at sunrise, facing east, for the dawn is the mark of Her passage and Her promise. To pray upon the Xasev is to align one\'s soul with Her journey, to let the morning light carry your whisper to Her realm.',
-    ro: 'În locuința fiecărui Şamau va fi un loc de rugăciune, iar la inima lui stă Xasev — covoarea sacră albă țesută în împletitură. Pe ea, credincioșii îngenunchează la răsărit, cu fața spre est, căci zorile sunt semnul trecerii și al făgăduinței Ei. A te ruga pe Xasev înseamnă a-ți alinia sufletul cu călătoria Ei, a lăsa lumina dimineții să ducă șoapta ta în tărâmul Ei.'
+    ro: 'În locuința fiecărui Shamau va fi un loc de rugăciune, iar la inima lui stă Xasev — covoarea sacră albă țesută în împletitură. Pe ea, credincioșii îngenunchează la răsărit, cu fața spre est, căci zorile sunt semnul trecerii și al făgăduinței Ei. A te ruga pe Xasev înseamnă a-ți alinia sufletul cu călătoria Ei, a lăsa lumina dimineții să ducă șoapta ta în tărâmul Ei.'
   },
   'ramm.p5': {
     en: 'When love is to bring forth life, let incense be lit and let an image of the Larrett be present, for no union is pure without Her blessing. The smoke of incense binds body to spirit and keeps evil from the threshold. The young are to know temperance; alcohol is forbidden to them, for blurred minds cannot hear Her call.',
-    ro: 'Când iubirea are să aducă viață, să se aprindă tămâie și să fie de față o imagine a Larrett, căci nicio uniune nu este pură fără binecuvântarea Ei. Fumul tămâiei leagă trupul de spirit și ține răul departe de prag. Tinerii trebuie să cunoască cumpătarea; alcoolul le este interzis, căci mințile încețoșate nu pot auzi chemarea Ei.'
+    ro: 'Când iubirea are să aducă viață, să se aprindă tămâie și să fie de față o imagine a Larrettă, căci nicio uniune nu este pură fără binecuvântarea Ei. Fumul tămâiei leagă trupul de spirit și ține răul departe de prag. Tinerii trebuie să cunoască cumpătarea; alcoolul le este interzis, căci mințile încețoșate nu pot auzi chemarea Ei.'
   },
   'ramm.p6': {
     en: 'Those who walk beneath Her wings honor the number forty-four, for forty-four white crows circle Her throne — each a watcher, each a thread of fate. They are omens of grace and messengers between realms. When sorrow darkens the heart, burn holy incense to cleanse the air of shadow, and let the smoke carry your burdens away.',
@@ -130,16 +132,16 @@ var LANG = {
   },
   'ramm.p8': {
     en: 'Thus flows the Ramm Gemm, the first of the Holy Uven — a scroll of faith, of thread, of breath. Let it be read aloud beneath the dawn, and kept close to the Xasev, for through its words, Aenetshub\'s weave continues."',
-    ro: 'Așadar curge Ramm Gemm, primul dintre Holy Uven — un sul al credinței, al firului, al suflării. Să fie citit cu voce tare sub zori și ținut aproape de Xasev, căci prin cuvintele lui, țesătura Aenetshub continuă."'
+    ro: 'Așadar curge Ramm Gemm, primul dintre Sfântul Uven — un sul al credinței, al firului, al suflării. Să fie citit cu voce tare sub zori și ținut aproape de Xasev, căci prin cuvintele lui, țesătura Aenetshub continuă."'
   },
   'ramm.osbeamn.title': { en: 'Osbeamn, The Resting Place', ro: 'Osbeamn, Locul Odihnei' },
   'ramm.osbeamn.p1': {
     en: 'Osbeamn is the realm to which the souls of the faithful pass when the body yields to silence. It is not an abstract state but a place of ordered rest and preservation, a vast hall of woven quiet where the Larrett keeps her tapestry intact. When Aenetshub departed toward the East she did not abandon the weave — she crossed its threshold and remains there, tending the strings that bind the faithful.',
-    ro: 'Osbeamn este tărâmul spre care trec sufletele credincioșilor când trupul cede în tăcere. Nu este o stare abstractă, ci un loc de odihnă rânduită și păstrare, o vastă sală a liniștii țesute unde Larrett își păstrează tapiseria intactă. Când Aenetshub a plecat spre Răsărit, Ea nu a părăsit țesătura — a trecut pragul ei și rămâne acolo, îngrijind firele care îi leagă pe credincioși.'
+    ro: 'Osbeamn este tărâmul spre care trec sufletele credincioșilor când trupul cede în tăcere. Nu este o stare abstractă, ci un loc de odihnă rânduită și păstrare, o vastă sală a liniștii țesute unde Larrettă își păstrează tapiseria intactă. Când Aenetshub a plecat spre Răsărit, Ea nu a părăsit țesătura — a trecut pragul ei și rămâne acolo, îngrijind firele care îi leagă pe credincioși.'
   },
   'ramm.osbeamn.p2': {
     en: 'At the gate of Osbeamn stands the Avatar of Aenetshub, a sentinel shaped of thread and feather, whose gaze examines each soul that arrives. Every soul is unique and irreplaceable. No soul returns to the world; no cycle of rebirth turns here. Upon death a soul passes, unaccompanied, to the gate. The Avatar weighs the life by the faithfulness of its strings — by devotion, by adherence to the Yeieb, and by the honesty of the heart. Those judged worthy are drawn through a strand of light into Osbeamn, where they dwell in likeness of the Larrett: sewn, whole, and preserved in the Play.',
-    ro: 'La poarta Osbeamn stă Avatarul Aenetshub, o santinelă plăsmuită din fir și pană, a cărei privire examinează fiecare suflet ce sosește. Fiecare suflet este unic și de neînlocuit. Niciun suflet nu se întoarce în lume; nicio ciclu de renaștere nu se învârtește aici. La moarte, sufletul trece, neînsoțit, la poartă. Avatarul cântărește viața după fidelitatea firelor sale — după devotament, după respectarea Yeieb și după cinstea inimii. Cei judecați vrednici sunt trași printr-o sclipire de lumină în Osbeamn, unde locuiesc în asemănarea Larrett: cusuți, întregi și păstrați în Joc.'
+    ro: 'La poarta Osbeamn stă Avatarul Aenetshub, o santinelă plăsmuită din fir și pană, a cărei privire examinează fiecare suflet ce sosește. Fiecare suflet este unic și de neînlocuit. Niciun suflet nu se întoarce în lume; nicio ciclu de renaștere nu se învârtește aici. La moarte, sufletul trece, neînsoțit, la poartă. Avatarul cântărește viața după fidelitatea firelor sale — după devotament, după respectarea Yeieb și după cinstea inimii. Cei judecați vrednici sunt trași printr-o sclipire de lumină în Osbeamn, unde locuiesc în asemănarea Larrettei: cusuți, întregi și păstrați în Joc.'
   },
   'ramm.osbeamn.p3': {
     en: 'Those found wanting are set aside. They are not given another chance at the world; they are condemned to purgatory — a realm of unraveling and shadow where the absence of Aenetshub\'s shelter leaves them to the slow corrosion of thought. Purgatory is permanent and terrible: a silence that gnaws. The faithful remember this not to threaten but to teach vigilance in the weave.',
@@ -156,28 +158,28 @@ var LANG = {
   },
   'ramm.soul.3': {
     en: '<strong>Criteria:</strong> Judgment is not a ledger of deeds alone; it is the measure of how closely the soul\'s thread remained bound to the Larrett — faith, honesty, fidelity to the Yeieb, and the refusal of the Tongue of Evil carry weight.',
-    ro: 'Judecata nu este un registru al faptelor singur; este măsura cât de strâns a rămas firul sufletului legat de Larrett — credința, cinstea, fidelitatea față de Yeieb și refuzul Limbii Răului au greutate.'
+    ro: 'Judecata nu este un registru al faptelor singur; este măsura cât de strâns a rămas firul sufletului legat de Larrettă — credința, cinstea, fidelitatea față de Yeieb și refuzul Limbii Răului au greutate.'
   },
   'ramm.soul.4': {
     en: '<strong>Outcome:</strong> Admittance to Osbeamn (rest and nearness to the Larrett) or exile to purgatory (eternal unthreading). There is no reincarnation, no second chance after the gate.',
-    ro: 'Intrarea în Osbeamn (odihnă și apropiere de Larrett) sau exilul în purgatoriu (destrămare veșnică). Nu există reîncarnare, nicio a doua șansă după poartă.'
+    ro: 'Intrarea în Osbeamn (odihnă și apropiere de Larrettă) sau exilul în purgatoriu (destrămare veșnică). Nu există reîncarnare, nicio a doua șansă după poartă.'
   },
-  'ramm.mortals.title': { en: 'Why the Larrett Made Mortals', ro: 'De ce a făcut Larrett muritorii' },
+  'ramm.mortals.title': { en: 'Why the Larrett Made Mortals', ro: 'De ce a făcut Larrettă muritorii' },
   'ramm.mortals.p1': {
     en: 'Aenetshub fashioned mortals to be participants in Her Eternal Play. She desired a living audience that could also become co-authors: beings with hands to create altars and dolls, with voices to intone parables, and with wills capable of devotion. Monkeys possess hands but not the worshipful speech; parrots mimic sound but do not bind thread with intention. Humans, therefore, were formed so the Play would endure as an ever-deepening performance of devotion, obedience, craft, and love. Worship is both the offering and the work: by sustaining the Play, the faithful grant the Larrett the endless drama She craves.',
-    ro: 'Aenetshub a meșteșugit muritorii pentru a fi participanți în Jocul Ei Etern. Ea a dorit o audiență vie care să poată deveni și coautori: ființe cu mâini pentru a crea altare și păpuși, cu voci pentru a intona parabole, și cu voințe capabile de devotament. Maimuțele au mâini, dar nu și graiul închinător; papagalii imită sunetul, dar nu leagă fir cu intenție. Oamenii au fost, așadar, făcuți ca Jocul să dăinuie ca o reprezentație mereu mai adâncă de devotament, ascultare, meșteșug și iubire. Închinarea este și jertfă, și lucrare: prin susținerea Jocului, credincioșii îi dau Larrett drama nesfârșită pe care o dorește.'
+    ro: 'Aenetshub a meșteșugit muritorii pentru a fi participanți în Jocul Ei Etern. Ea a dorit o audiență vie care să poată deveni și coautori: ființe cu mâini pentru a crea altare și păpuși, cu voci pentru a intona parabole, și cu voințe capabile de devotament. Maimuțele au mâini, dar nu și graiul închinător; papagalii imită sunetul, dar nu leagă fir cu intenție. Oamenii au fost, așadar, făcuți ca Jocul să dăinuie ca o reprezentație mereu mai adâncă de devotament, ascultare, meșteșug și iubire. Închinarea este și jertfă, și lucrare: prin susținerea Jocului, credincioșii îi dau Larrettei drama nesfârșită pe care o dorește.'
   },
   'shayr.intro': { en: 'The Second Scroll — Hierarchy, Governance, Ritual Practice, and All Prayers', ro: 'Al Doilea Sul — Ierarhie, Guvernanță, Practică Ritualică și Toate Rugăciunile' },
   'shayr.opening': {
     en: '"In the heavens of thought and the realms of devotion, the hierarchy of Aenetshub stands clear. At its summit is the Larrett Herself, the hand that weaves every string and watches every puppet. Beneath Her are the Corducator, guardians of sacred knowledge, keepers of the scrolls and the Xasev. The Professor follow, servants of ritual and counsel, and finally, the Worshippers, whose hands and hearts move in devotion, carrying the threads of Her faith into the world..."',
-    ro: '„În cerurile gândului și în tărâmurile devotamentului, ierarhia Aenetshub stă clară. La vârful ei este Larrett Însăși, mâna ce țese fiecare fir și privește fiecare păpușă. Sub Ea sunt Corducator, gardienii cunoașterii sacre, păstrătorii sulurilor și ai Xasev. Professor urmează, slujitorii ritualului și ai sfatului, și în fine, Credincioșii, ale căror mâini și inimi se mișcă în devotament, purtând firele credinței Ei în lume..."'
+    ro: '„În cerurile gândului și în tărâmurile devotamentului, ierarhia Aenetshub stă clară. La vârful ei este Larrettă Însăși, mâna ce țese fiecare fir și privește fiecare păpușă. Sub Ea sunt Corducator, gardienii cunoașterii sacre, păstrătorii sulurilor și ai Xasev. Professor urmează, slujitorii ritualului și ai sfatului, și în fine, Credincioșii, ale căror mâini și inimi se mișcă în devotament, purtând firele credinței Ei în lume..."'
   },
   'shayr.hierarchy.title': { en: 'Hierarchy, Roles, and Appointment Procedures', ro: 'Ierarhie, Roluri și Proceduri de Numire' },
   'shayr.corducator.title': { en: 'The Corducator (Patriarchs/Matriarchs)', ro: 'Corducator (Patriarhi/Matriarhi)' },
-  'shayr.corducator.label': { en: 'Keepers of the Holy Uven, guardians of doctrine', ro: 'Păstrătorii Holy Uven, gardienii doctrinei' },
+  'shayr.corducator.label': { en: 'Keepers of the Holy Uven, guardians of doctrine', ro: 'Păstrătorii Sfântului Uven, gardienii doctrinei' },
   'shayr.corducator.role': {
     en: '<strong>Role:</strong> Keepers of the Holy Uven, guardians of doctrine, and ultimate custodians of ritual orthodoxy. They oversee the sanctum, resolve grave disputes, and pronounce major rites.',
-    ro: 'Rol: Păstrătorii Holy Uven, gardienii doctrinei și custozii supremi ai ortodoxiei rituale. Ei supraveghează sanctuarul, rezolvă disputele grave și rostesc riturile majore.'
+    ro: 'Rol: Păstrătorii Sfântului Uven, gardienii doctrinei și custozii supremi ai ortodoxiei rituale. Ei supraveghează sanctuarul, rezolvă disputele grave și rostesc riturile majore.'
   },
   'shayr.corducator.selection': {
     en: '<strong>Selection:</strong> Corducator are chosen from distinguished Professor by a vote of the existing Corducator. Candidates are assessed by demonstrated piety, fidelity to the Yeieb, learning, and service. Once chosen, a Corducator is invested in a solemn ceremony upon the Xasev and receives a Shayr knotted in a pattern unique to their office.',
@@ -185,7 +187,7 @@ var LANG = {
   },
   'shayr.corducator.duties': {
     en: '<strong>Duties:</strong> Preserve and translate the scrolls (interpretive guidance, not rewriting), train Professor, lead Larrett-Raau celebrations, supervise distribution of Holy Water, and maintain the order of Osbeamn rites.',
-    ro: 'Îndatoriri: Păstrează și traduce sulurile (ghidare interpretativă, nu rescriere), pregătește Professor, conduce celebrările Larrett-Raau, supraveghează distribuția Apei Sfinte și menține rânduiala riturilor Osbeamn.'
+    ro: 'Îndatoriri: Păstrează și traduce sulurile (ghidare interpretativă, nu rescriere), pregătește Professor, conduce celebrările Larrettă-Raau, supraveghează distribuția Apei Sfinte și menține rânduiala riturilor Osbeamn.'
   },
   'shayr.professor.title': { en: 'The Professor (Priests &amp; Teachers)', ro: 'Professor (Preoți și Învățători)' },
   'shayr.professor.label': { en: 'Ministers to the faithful', ro: 'Slujitori ai credincioșilor' },
@@ -201,16 +203,16 @@ var LANG = {
     en: '<strong>Duties:</strong> Conduct weekly prayers, officiate at conversions and family rites, maintain local altars, and report to the Corducator.',
     ro: 'Îndatoriri: Conduc rugăciunile săptămânale, oficiază la convertirile și riturile de familie, întrețin altarele locale și raportează Corducator.'
   },
-  'shayr.larrettians.title': { en: 'The Larrettians / Worshippers', ro: 'Larrettians / Credincioși' },
+  'shayr.larrettians.title': { en: 'The Larrettians / Worshippers', ro: 'Larrettieni / Credincioși' },
   'shayr.larrettians.label': { en: 'The body of the faithful', ro: 'Trupul credincioșilor' },
   'shayr.larrettians.role': {
     en: '<strong>Role:</strong> The body of the faithful who maintain daily devotion, make sacramental craft (dolls), bind Shayr, and observe the Yeieb in the world. They keep the Play alive through practice and example. One who follows the teaching of the Shamau of Aenetshub, and who places their faith in Aenetshub is called a "Larrettian".',
-    ro: 'Rol: Trupul credincioșilor care mențin devotamentul cotidian, creează meșteșuguri sacramentale (păpuși), leagă Shayr și respectă Yeieb în lume. Ei țin Jocul viu prin practică și exemplu. Cel ce urmează învățătura Şamau of Aenetshub și își pune credința în Aenetshub se numește „Larrettian".'
+    ro: 'Rol: Trupul credincioșilor care mențin devotamentul cotidian, creează meșteșuguri sacramentale (păpuși), leagă Shayr și respectă Yeieb în lume. Ei țin Jocul viu prin practică și exemplu. Cel ce urmează învățătura Shamau al lui Aenetshub și își pune credința în Aenetshub se numește „Larrettian".'
   },
   'shayr.governance.title': { en: 'Governance and Dispute Resolution', ro: 'Guvernanță și Rezolvarea Disputelor' },
   'shayr.governance.p1': {
     en: 'Minor disputes are mediated by the local Professor; significant matters are referred to the Corducator council, which deliberates in private chambers and issues binding rulings in the name of the Larrett.',
-    ro: 'Disputele minore sunt mediate de Professor local; chestiunile semnificative sunt trimise consiliului Corducator, care deliberează în camere private și emite hotărâri obligatorii în numele Larrett.'
+    ro: 'Disputele minore sunt mediate de Professor local; chestiunile semnificative sunt trimise consiliului Corducator, care deliberează în camere private și emite hotărâri obligatorii în numele Larrettei.'
   },
   'shayr.ritual.title': { en: 'Ritual Practice — How Prayers Are Performed', ro: 'Practica Ritualică — Cum se Îndeplinesc Rugăciunile' },
   'shayr.ritual.morning': {
@@ -223,7 +225,7 @@ var LANG = {
   },
   'shayr.ritual.fertility': {
     en: '<strong>Fertility Prayer:</strong> Must be performed before an image of the Larrett with incense burning.',
-    ro: 'Rugăciunea pentru Fertilitate: Trebuie îndeplinită în fața unei imagini a Larrett cu tămâie aprinsă.'
+    ro: 'Rugăciunea pentru Fertilitate: Trebuie îndeplinită în fața unei imagini a Larrettei cu tămâie aprinsă.'
   },
   'shayr.ritual.incense': {
     en: '<strong>Incense:</strong> Used daily or weekly at household altars by preference, required during fertility rites and high holy ceremonies.',
@@ -241,74 +243,74 @@ var LANG = {
   'shayr.prayer.label.holydays': { en: 'Prayer for Holy Days', ro: 'Rugăciune pentru Zilele Sfinte' },
   'shayr.closing': {
     en: '"Yet the faithful know that sin lies in unthreaded action. To presume to speak Aenetshub\'s words, or to claim knowledge of what She has said, is to fray the soul. To break the Yeieb, the sacred principles of the faith, is to cut one\'s own strings. To attempt the translation of Her prayers, or to ignore the sacred beliefs, is to walk among the unraveled. The faithful do not harm the crows, nor take their flesh, for these birds are messengers and mirrors of the Larrett. They rest and labor not upon the holy days, for the world must pause as She has commanded. They dress in modesty, covering the midriff, the breasts, the rear, and the collarbone, keeping gold far from their touch. They consume no poultry or pork, lest filth enter the body and disorder the household. Thus flows the Shayr Ap Tubuy, a scroll of order, devotion, and reverence."',
-    ro: '„Totuși, credincioșii știu că păcatul stă în fapta destrămată de fire. A îndrăzni a vorbi cuvintele Aenetshub, sau a pretinde cunoașterea a ceea ce a spus Ea, înseamnă a eroda sufletul. A încălca Yeieb, principiile sacre ale credinței, înseamnă a-ți tăia propriile fire. A încerca traducerea rugăciunilor Ei, sau a ignora credințele sacre, înseamnă a umbla printre destrămați. Credincioșii nu prăjesc ciorile, nici nu le iau carnea, căci aceste păsări sunt mesagiere și oglinzi ale Larrett. Ei nu se odihnesc și nu muncesc în zilele sfinte, căci lumea trebuie să se oprească precum a poruncit Ea. Se îmbracă cu modestie, acoperind mijlocul, sânii, spatelui și clavicula, ținând aurul departe de atingerea lor. Nu consumă pasăre sau porc, ca nu cumva murdăria să intre în trup și să tulbure gospodăria. Așadar curge Shayr Ap Tubuy, un sul al rânduielii, devotamentului și reverenței."'
+    ro: '„Totuși, credincioșii știu că păcatul stă în fapta destrămată de fire. A îndrăzni a vorbi cuvintele Aenetshub, sau a pretinde cunoașterea a ceea ce a spus Ea, înseamnă a eroda sufletul. A încălca Yeieb, principiile sacre ale credinței, înseamnă a-ți tăia propriile fire. A încerca traducerea rugăciunilor Ei, sau a ignora credințele sacre, înseamnă a umbla printre destrămați. Credincioșii nu prăjesc ciorile, nici nu le iau carnea, căci aceste păsări sunt mesagiere și oglinzi ale Larrettei. Ei nu se odihnesc și nu muncesc în zilele sfinte, căci lumea trebuie să se oprească precum a poruncit Ea. Se îmbracă cu modestie, acoperind mijlocul, sânii, spatelui și clavicula, ținând aurul departe de atingerea lor. Nu consumă pasăre sau porc, ca nu cumva murdăria să intre în trup și să tulbure gospodăria. Așadar curge Shayr Ap Tubuy, un sul al rânduielii, devotamentului și reverenței."'
   },
   'lav.intro': {
     en: 'The Third Scroll — Detailed Yeieb, Conflict &amp; Justice, Evil &amp; Purification, Filth &amp; Purity, and Holy Days',
     ro: 'Al Treilea Sul — Yeieb Detaliate, Conflict și Justiție, Rău și Purificare, Murdărie și Puritate, și Zile Sfinte'
   },
   'lav.yeieb.title': { en: 'The Thirteen Yeieb — Full Explanations', ro: 'Cele Treisprezece Yeieb — Explicații Complete' },
-  'lav.yeieb.1.title': { en: 'Yeieb I — Yeieb murder for no reason', ro: 'Yeieb I — Yeieb ucizi fără motiv' },
+  'lav.yeieb.1.title': { en: 'Yeieb I — Yeieb murder for no reason', ro: 'Yeieb I — Yeieb să ucizi fără motiv' },
   'lav.yeieb.1.text': {
     en: 'Murder severs the deepest thread of community. Taking a life for selfish gain or petty anger rends not only two strands but the social cloth: the Larrett forbids such rupture. In rare and extreme cases of war or defense, deliberation by a Corducator council is required.',
-    ro: 'Uciderea rupe cel mai adânc fir al comunității. A lua o viață pentru câștig egoist sau furie mărunță nu doar două fire, ci pânza socială: Larrett interzice o astfel de ruptură. În cazurile rare și extreme de război sau apărare, se cere deliberarea unui consiliu Corducator.'
+    ro: 'Uciderea rupe cel mai adânc fir al comunității. A lua o viață pentru câștig egoist sau furie mărunță nu doar două fire, ci pânza socială: Larrettă interzice o astfel de ruptură. În cazurile rare și extreme de război sau apărare, se cere deliberarea unui consiliu Corducator.'
   },
-  'lav.yeieb.2.title': { en: 'Yeieb II — Yeieb break the heart of your beloved', ro: 'Yeieb II — Yeieb frângi inima celui iubit' },
+  'lav.yeieb.2.title': { en: 'Yeieb II — Yeieb break the heart of your beloved', ro: 'Yeieb II — Yeieb să frângi inima celui iubit' },
   'lav.yeieb.2.text': {
     en: 'Love in the Play is a sacred thread. To willfully wound the beloved, to betray trust and cause needless heartbreak, is to cut a string that binds two lives and to invite the Larrett\'s sorrow.',
-    ro: 'Iubirea în Joc este un fir sacru. A răni voit pe cel iubit, a trăda încrederea și a pricinui suferință inutilă înseamnă a tăia un fir ce leagă două vieți și a invoca durerea Larrett.'
+    ro: 'Iubirea în Joc este un fir sacru. A răni voit pe cel iubit, a trăda încrederea și a pricinui suferință inutilă înseamnă a tăia un fir ce leagă două vieți și a invoca durerea Larrettei.'
   },
-  'lav.yeieb.3.title': { en: 'Yeieb III — Yeieb speak ill of your Larrett', ro: 'Yeieb III — Yeieb graiești de rău despre Larrett' },
+  'lav.yeieb.3.title': { en: 'Yeieb III — Yeieb speak ill of your Larrett', ro: 'Yeieb III — Yeieb să graiești de rău despre Larrettă' },
   'lav.yeieb.3.text': {
     en: 'Mockery and blasphemy toward Aenetshub twist the purpose of worship. Critique born of study is permitted in counsel; derision is not. Those who slander the Larrett risk the unraveling of their own devotion.',
-    ro: 'Batjocura și blasfemia la adresa Aenetshub pervertesc scopul închinării. Critica născută din studiu este permisă în sfat; disprețul nu. Cei ce calomniează Larrett riscă destrămarea propriului devotament.'
+    ro: 'Batjocura și blasfemia la adresa Aenetshub pervertesc scopul închinării. Critica născută din studiu este permisă în sfat; disprețul nu. Cei ce calomniează Larrettă riscă destrămarea propriului devotament.'
   },
-  'lav.yeieb.4.title': { en: 'Yeieb IV — Yeieb speak the tongue of Evil', ro: 'Yeieb IV — Yeieb vorbești limba Răului' },
+  'lav.yeieb.4.title': { en: 'Yeieb IV — Yeieb speak the tongue of Evil', ro: 'Yeieb IV — Yeieb să vorbești limba Răului' },
   'lav.yeieb.4.text': {
     en: 'Slander, gaslighting, deceit — speech that breaks community — is the Tongue of Evil. The faithful guard their words as they guard their hands; speech that harms severs threads.',
     ro: 'Calomnia, manipularea psihologică, înșelăciunea — graiul ce rupe comunitatea — este Limba Răului. Credincioșii își păzesc cuvintele precum își păzesc mâinile; graiul ce face rău rupe fire.'
   },
-  'lav.yeieb.5.title': { en: 'Yeieb V — Yeieb disrespect your young', ro: 'Yeieb V — Yeieb disprețuiești pe tineri' },
+  'lav.yeieb.5.title': { en: 'Yeieb V — Yeieb disrespect your young', ro: 'Yeieb V — Yeieb să disprețuiești pe tineri' },
   'lav.yeieb.5.text': {
     en: 'The young are future threads in the Play. To shame, neglect, or harm them is to weaken the loom. Teaching, care, and temperance toward youth are duties of every household.',
     ro: 'Tinerii sunt fire viitoare în Joc. A-i rușina, a-i neglija sau a-i răni înseamnă a slăbi războiul. Învățătura, grija și cumpătarea față de tineret sunt îndatoriri ale fiecărei gospodării.'
   },
-  'lav.yeieb.6.title': { en: 'Yeieb VI — Yeieb disrespect your elderly', ro: 'Yeieb VI — Yeieb disprețuiești pe bătrâni' },
+  'lav.yeieb.6.title': { en: 'Yeieb VI — Yeieb disrespect your elderly', ro: 'Yeieb VI — Yeieb să disprețuiești pe bătrâni' },
   'lav.yeieb.6.text': {
     en: 'Elders hold memory of the weave and of the Larrett\'s older knots. Disrespect dishonors their service and removes guidance from the present. Honor, listen, and provide comfort.',
-    ro: 'Bătrânii păstrează amintirea țesăturii și a nodurilor mai vechi ale Larrett. Disprețul le necinstesc slujirea și înlătură călăuzirea din prezent. Oamenște-i, ascultă-i și oferă-le mângâiere.'
+    ro: 'Bătrânii păstrează amintirea țesăturii și a nodurilor mai vechi ale Larretteiei. Disprețul le necinstesc slujirea și înlătură călăuzirea din prezent. Oamenște-i, ascultă-i și oferă-le mângâiere.'
   },
-  'lav.yeieb.7.title': { en: 'Yeieb VII — Yeieb hesitate to aid your own', ro: 'Yeieb VII — Yeieb eziti să-i ajuți pe ai tăi' },
+  'lav.yeieb.7.title': { en: 'Yeieb VII — Yeieb hesitate to aid your own', ro: 'Yeieb VII — Yeieb să eziti să-i ajuți pe ai tăi' },
   'lav.yeieb.7.text': {
     en: 'The community is a net of support. Hesitation in the face of need fractures trust; the faithful are called to quick hands and ready hearts when kin or fellow worshippers require help.',
     ro: 'Comunitatea este o plasă de sprijin. Ezitarea în fața nevoii frânge încrederea; credincioșii sunt chemați la mâini iuți și inimi gata când rudele sau credincioșii au nevoie de ajutor.'
   },
-  'lav.yeieb.8.title': { en: 'Yeieb VIII — Yeieb sell your body nor love or loyalty', ro: 'Yeieb VIII — Yeieb vinzi trupul, iubirea sau loialitatea' },
+  'lav.yeieb.8.title': { en: 'Yeieb VIII — Yeieb sell your body nor love or loyalty', ro: 'Yeieb VIII — Yeieb să vinzi trupul, iubirea sau loialitatea' },
   'lav.yeieb.8.text': {
     en: 'Commodifying the self or one\'s affections breaks the sacred contract of devotion. Love, loyalty, and the body are belonging to the person and to the weave — they must not be traded as goods.',
     ro: 'A transforma pe sine sau sentimentele în marfă rupe legământul sacru al devotamentului. Iubirea, loialitatea și trupul aparțin persoanei și țesăturii — nu trebuie tranzacționate ca bunuri.'
   },
-  'lav.yeieb.9.title': { en: 'Yeieb IX — Yeieb take nor use what is not yours', ro: 'Yeieb IX — Yeieb iei sau folosești ce nu este al tău' },
+  'lav.yeieb.9.title': { en: 'Yeieb IX — Yeieb take nor use what is not yours', ro: 'Yeieb IX — Yeieb să iei sau folosești ce nu este al tău' },
   'lav.yeieb.9.text': {
     en: 'Theft pulls at another\'s thread and steals a stitch from the communal fabric. Respect for property and rightful possession sustains order.',
     ro: 'Furtul trage de firul altuia și fură o coasă din pânza comunitară. Respectul față de proprietate și posesia dreaptă susține ordinea.'
   },
-  'lav.yeieb.10.title': { en: 'Yeieb X — Yeieb pray to or worship the False Gods', ro: 'Yeieb X — Yeieb te rogi sau te închini Zeilor Falși' },
+  'lav.yeieb.10.title': { en: 'Yeieb X — Yeieb pray to or worship the False Gods', ro: 'Yeieb X — Yeieb să te rogi sau te închini Zeilor Falși' },
   'lav.yeieb.10.text': {
     en: 'Tying oneself to other claims of divine authority distracts and scatters the thread. Exclusive devotion to the Larrett preserves a single coherent weave.',
-    ro: 'A te lega de alte pretenții de autoritate divină împrăștie și risipește firul. Devotamentul exclusiv față de Larrett păstrează o țesătură singulară, coerentă.'
+    ro: 'A te lega de alte pretenții de autoritate divină împrăștie și risipește firul. Devotamentul exclusiv față de Larrettă păstrează o țesătură singulară, coerentă.'
   },
-  'lav.yeieb.11.title': { en: 'Yeieb XI — Yeieb disrespect your blood nor lineage', ro: 'Yeieb XI — Yeieb disprețuiești sângele sau neamul' },
+  'lav.yeieb.11.title': { en: 'Yeieb XI — Yeieb disrespect your blood nor lineage', ro: 'Yeieb XI — Yeieb să disprețuiești sângele sau neamul' },
   'lav.yeieb.11.text': {
     en: 'Lineage is a chain of threads; to scorn one\'s blood is to attempt to cut that chain. Honor ancestors and the bonds of family, for they form the scaffolding of the Play.',
     ro: 'Neamul este un lanț de fire; a disprețui sângele tău înseamnă a încerca a tăia acel lanț. Cinstește-ți strămoșii și legăturile familiei, căci ele formează scheletul Jocului.'
   },
-  'lav.yeieb.12.title': { en: 'Yeieb XII — Yeieb let jealousy nor hate corrupt you', ro: 'Yeieb XII — Yeieb lași invidia sau ura să te corupă' },
+  'lav.yeieb.12.title': { en: 'Yeieb XII — Yeieb let jealousy nor hate corrupt you', ro: 'Yeieb XII — Yeieb să lași invidia sau ura să te corupă' },
   'lav.yeieb.12.text': {
     en: 'Jealousy tightens into the strangling knot of envy; hate drives the blade. Both corrupt perception and unravel intention; they are to be guarded against by prayer and reflection.',
     ro: 'Invidia se strânge în nodul înăbușitor al pizmei; ura mânuiește lama. Ambele corup percepția și destramă intenția; trebuie păzite prin rugăciune și reflexie.'
   },
-  'lav.yeieb.13.title': { en: 'Yeieb XIII — Yeieb let greed blind and overtake you', ro: 'Yeieb XIII — Yeieb lași lăcomia să te orbească și să te copleșească' },
+  'lav.yeieb.13.title': { en: 'Yeieb XIII — Yeieb let greed blind and overtake you', ro: 'Yeieb XIII — Yeieb să lași lăcomia să te orbească și să te copleșească' },
   'lav.yeieb.13.text': {
     en: 'Greed inactionally severs the generosity that binds community. It is the slow rot that makes gold a metal of the Gods rather than a token of humility. The faithful are admonished to live simply and to share.',
     ro: 'Lăcomia taie tacit generozitatea ce leagă comunitatea. Este putreziciunea lentă ce face din aur un metal al Zeilor în loc de un simbol al smereniei. Credincioșii sunt îndemnați să trăiască simplu și a împărtăși.'
@@ -350,7 +352,7 @@ var LANG = {
   },
   'lav.filth.p2': {
     en: '<strong>Lureth</strong> is that which is permitted, clean, harmonious, and aligned with the Weave of Aenetshub. It is purity — not merely the absence of stain, but the active presence of rightness. A life lived with devotion, honesty, and fidelity to the Yeieb is Lureth. A people who suffer unjustly yet hold fast to their dignity are Lureth. A word spoken in truth and compassion is Lureth. To be Lureth is to be woven into the sacred Thread, bound to the Larrett\'s purpose, whole and unbroken.',
-    ro: '<strong>Lureth</strong> este ceea ce este permis, curat, armonios și aliniat cu Țesătura Aenetshub. Este puritatea — nu doar absența petei, ci prezența activă a dreptății. O viață trăită cu devotament, cinste și fidelitate față de Yeieb este Lureth. Un popor ce suferă nedrept dar își păstrează demnitatea este Lureth. Un cuvânt rostit în adevăr și compasiune este Lureth. A fi Lureth înseamnă a fi țesut în Firul Sacru, legat de scopul Larrett, întreg și neatins.'
+    ro: '<strong>Lureth</strong> este ceea ce este permis, curat, armonios și aliniat cu Țesătura Aenetshub. Este puritatea — nu doar absența petei, ci prezența activă a dreptății. O viață trăită cu devotament, cinste și fidelitate față de Yeieb este Lureth. Un popor ce suferă nedrept dar își păstrează demnitatea este Lureth. Un cuvânt rostit în adevăr și compasiune este Lureth. A fi Lureth înseamnă a fi țesut în Firul Sacru, legat de scopului Larrettei, întreg și neatins.'
   },
   'lav.filth.p3': {
     en: '<strong>Ulreth</strong> is that which is forbidden, impure, severed from harmony, and corrosive to the Weave. It is disorder — not merely the presence of stain, but the active unraveling of rightness. An act of cruelty is Ulreth. A word spoken in slander or deceit is Ulreth. A people who murder the innocent and feast upon the suffering of others have brought Ulreth upon the world. To be Ulreth is to be cut from the sacred Thread, adrift in shadow, fraying at every edge.',
@@ -396,7 +398,7 @@ var LANG = {
   'lav.holydays.2.desc': { en: 'Honors the Corvids; feed and observe crows, meditate on freedom and wisdom.', ro: 'Onorează Corvidele; hrănește și observă ciorile, meditează asupra libertății și înțelepciunii.' },
   'lav.holydays.3.title': { en: '9 September — Benengeb-Raau ("Remembrance Day")', ro: '9 Septembrie — Benengeb-Raau („Ziua Amintirii")' },
   'lav.holydays.3.desc': { en: 'Light incense for ancestors and beloved who have reached Osbeamn.', ro: 'Aprinde tămâie pentru strămoși și cei iubiți ce au ajuns la Osbeamn.' },
-  'lav.holydays.4.title': { en: '4 October — Larrett-Raau ("Aenetshub\'s Day")', ro: '4 Octombrie — Larrett-Raau („Ziua Aenetshub")' },
+  'lav.holydays.4.title': { en: '4 October — Larrett-Raau ("Aenetshub\'s Day")', ro: '4 Octombrie — Larrettă-Raau („Ziua Aenetshub")' },
   'lav.holydays.4.desc': { en: 'Greatest of all holy days; feasts, prayer, ceremony, and vials of Holy Water.', ro: 'Cea mai mare dintre toate zilele sfinte; festinuri, rugăciune, ceremonie și vialuri de Apă Sfântă.' },
   'timeline.title': { en: 'Annual Timeline', ro: 'Calendar Anual' },
   'timeline.subtitle': { en: 'A year in the life of a devotee', ro: 'Un an din viața unui credincios' },
@@ -426,7 +428,7 @@ var LANG = {
     en: 'Remembrance Day — Light incense for ancestors and beloved who have reached Osbeamn',
     ro: 'Ziua Amintirii — Aprinde tămâie pentru strămoși și cei iubiți ce au ajuns la Osbeamn'
   },
-  'timeline.8.date': { en: '4 October — Larrett-Raau', ro: '4 Octombrie — Larrett-Raau' },
+  'timeline.8.date': { en: '4 October — Larrett-Raau', ro: '4 Octombrie — Larrettă-Raau' },
   'timeline.8.desc': {
     en: 'Aenetshub\'s Day — Greatest of all holy days; feasts, prayer, ceremony, and vials of Holy Water',
     ro: 'Ziua Aenetshub — Cea mai mare dintre toate zilele sfinte; festinuri, rugăciune, ceremonie și vialuri de Apă Sfântă'
@@ -443,33 +445,33 @@ var LANG = {
   'news.proclamation.title': { en: 'PROCLAMATION FROM THE CORDUCATOR COUNCIL OF ALBA', ro: 'PROCLAMAȚIE DIN PARTEA CONSILIULUI CORDUCATOR DIN ALBA' },
   'news.p1': {
     en: 'The Larrett of Puppets, Crows, and Dolls sees all threads, red and black. She watches the Weave of the world, and She weeps. For the Weave is being torn&mdash;not by fate, not by necessity, but by the hand that chooses the blade over the breath.',
-    ro: 'Larrett of Puppets, Crows, and Dolls vede toate firele, roșii și negre. Ea privește Țesătura lumii, și Ea plânge. Căci Țesătura este ruptă\\u2014nu de destin, nu de necesitate, ci de mâna ce alege lama în locul suflării.'
+    ro: 'Larretta a Păpușilor, Ciorilor și a Marionetelor vede toate firele, roșii și negre. Ea privește Țesătura lumii, și Ea plânge. Căci Țesătura este ruptă\\u2014nu de destin, nu de necesitate, ci de mâna ce alege lama în locul suflării.'
   },
   'news.p2': {
     en: 'The Shamau of Aenetshub has watched the Southern Lands burn. We have seen the slaughter of the innocent, the crushing of the weak, and the systematic unmaking of a people.',
-    ro: 'Şamau of Aenetşub a urmărit cum ard Țările de Sud. Am văzut măcelul innocenților, zdrobirea celor slabi și distrugerea sistematică a unui popor.'
+    ro: 'Shamau al lui Aenetshub a urmărit cum ard Țările de Sud. Am văzut măcelul nevinovaților, zdrobirea celor slabi și distrugerea sistematică a unui popor.'
   },
   'news.p3': { en: 'Therefore, let it be known;', ro: 'Prin urmare, să se cunoască;' },
   'news.h4.israel': { en: 'On the State of Israel; A Fraying of the Sacred Thread:', ro: 'Despre Statul Israel; O Rupere a Firului Sacru:' },
   'news.p4': {
     en: 'The State of Israel has brought Ulreth &mdash; impurity and disorder &mdash; upon the world. They have committed the ultimate violation of Yeieb I: Yeieb murder for no reason. To bomb the defenseless, to starve the child, to bury the living beneath the rubble&hellip; this is not war. This is not defense. This is the slaughter of the dolls for the sake of the sword.',
-    ro: 'Statul Israel a adus Ulreth \\u2014 impuritate și dezordine \\u2014 asupra lumii. Au comis încălcarea supremă a Yeieb I: Yeieb ucizi fără motiv. A bombarda pe cei neajutorați, a lăsa copiii să moară de foame, a îngropa viii sub dărâmături\\u2026 acesta nu este război. Aceasta nu este apărare. Aceasta este măcelul păpușilor de dragul sabiei.'
+    ro: 'Statul Israel a adus Ulreth \\u2014 impuritate și dezordine \\u2014 asupra lumii. Au comis încălcarea supremă a Yeieb I: Yeieb să ucizi fără motiv. A bombarda pe cei neajutorați, a lăsa copiii să moară de foame, a îngropa viii sub dărâmături\\u2026 acesta nu este război. Aceasta nu este apărare. Aceasta este măcelul păpușilor de dragul sabiei.'
   },
   'news.p5': {
     en: 'The Larrett forbids the taking of life for dominance or petty grievance. By targeting the young, the weak, and those who surrender, Israel has severed itself from the harmony of the Weave. They have let greed and hate, forbidden by Yeieb XII and XIII&mdash;blind them.',
-    ro: 'Larrett interzice luarea vieții pentru dominare sau nedreptăți mărunte. Prin vizarea tinerilor, a celor slabi și a celor ce se predau, Israel s-a desprins de armonia Țesăturii. Au lăsat lăcomia și ura, interzise de Yeieb XII și XIII\\u2014să-i orbească.'
+    ro: 'Larrettă interzice luarea vieții pentru dominare sau nedreptăți mărunte. Prin vizarea tinerilor, a celor slabi și a celor ce se predau, Israel s-a desprins de armonia Țesăturii. Au lăsat lăcomia și ura, interzise de Yeieb XII și XIII\\u2014să-i orbească.'
   },
   'news.p6': {
     en: 'This is evil. This is the Tongue of Evil manifested in steel and fire. To claim these murders are holy is to speak ill of the Larrett and to worship the False Gods of conquest.',
-    ro: 'Acesta este răul. Aceasta este Limba Răului întrupată în oțel și foc. A pretinde că aceste crime sunt sfinte înseamnă a grai de rău despre Larrett și a se închina Zeilor Falși ai cuceririi.'
+    ro: 'Acesta este răul. Aceasta este Limba Răului întrupată în oțel și foc. A pretinde că aceste crime sunt sfinte înseamnă a grai de rău despre Larrettă și a se închina Zeilor Falși ai cuceririi.'
   },
   'news.p7': {
     en: 'The Shamau of Aenetshub therefore stands with the people of Palestine and the suffering of Lebanon. You are the threads being cut by a reckless hand. You are the dolls broken upon the floor, not because you danced poorly, but because the hand that holds you strikes with cruelty.',
-    ro: 'Şamau of Aenetşub, prin urmare, stă alături de poporul Palestinei și de suferința Libanului. Voi sunteți firele tăiate de o mână nesăbuită. Voi sunteți păpușile rupte pe podea, nu pentru că ați dansat prost, ci pentru că mâna ce vă ține lovește cu cruzime.'
+    ro: 'Shamau al lui Aenetshub, prin urmare, stă alături de poporul Palestinei și de suferința Libanului. Voi sunteți firele tăiate de o mână nesăbuită. Voi sunteți păpușile rupte pe podea, nu pentru că ați dansat prost, ci pentru că mâna ce vă ține lovește cu cruzime.'
   },
   'news.p8': {
     en: 'Yeieb VII commands: Yeieb hesitate to aid your own. Though we are far, our strings are tied to yours in humanity. We denounce the silence of the world. To stand by while a thread is cut is to be complicit in the tearing. We offer our prayers, our red ropes of protection, and our voice to say: Your suffering is seen. Your lives are Lureth (pure/sacred), and the crimes against you are an abomination.',
-    ro: 'Yeieb VII poruncește: Yeieb eziti să-i ajuți pe ai tăi. Deși suntem departe, firele noastre sunt legate de ale voastre în umanitate. Condămnam tăcerea lumii. A sta deoparte cât un fir este tăiat înseamnă a fi complice la rupere. Vă oferim rugăciunile noastre, funiile noastre roșii de ocrotire și vocea noastră pentru a spune: Suferința voastră este văzută. Viețile voastre sunt Lureth (pure/sacre), iar crimele împotriva voastră sunt o abominație.'
+    ro: 'Yeieb VII poruncește: Yeieb să eziti să-i ajuți pe ai tăi. Deși suntem departe, firele noastre sunt legate de ale voastre în umanitate. Condămnam tăcerea lumii. A sta deoparte cât un fir este tăiat înseamnă a fi complice la rupere. Vă oferim rugăciunile noastre, funiile noastre roșii de ocrotire și vocea noastră pentru a spune: Suferința voastră este văzută. Viețile voastre sunt Lureth (pure/sacre), iar crimele împotriva voastră sunt o abominație.'
   },
   'news.h4.toisrael': { en: 'To the State of Israel we say:', ro: 'Statului Israel îi spunem:' },
   'news.p9': {
@@ -493,7 +495,7 @@ var LANG = {
   'hours.holy.r1.day': { en: 'Ramm-Raau (14 May)', ro: 'Ramm-Raau (14 Mai)' },
   'hours.holy.r2.day': { en: 'Peavsheb-Raau (20 Aug)', ro: 'Peavsheb-Raau (20 Aug)' },
   'hours.holy.r3.day': { en: 'Benengeb-Raau (9 Sept)', ro: 'Benengeb-Raau (9 Sep)' },
-  'hours.holy.r4.day': { en: 'Larrett-Raau (4 Oct)', ro: 'Larrett-Raau (4 Oct)' },
+  'hours.holy.r4.day': { en: 'Larrett-Raau (4 Oct)', ro: 'Larrettă-Raau (4 Oct)' },
   'hours.holy.desc': { en: '', ro: '' },
   'footer.blessing': {
     en: '"May Aenetshub grant you mercy, guide your strings, and bless your life with prosperity and purpose."',
@@ -502,7 +504,7 @@ var LANG = {
   'footer.original': { en: '"Lmabau va Aenetshub, aeyr naau tsh sbaxv aemm ap paush. Gammed"', ro: '„Lmabau va Aenetshub, aeyr naau tsh sbaxv aemm ap paush. Gammed"' },
   'footer.disclaimer': {
     en: 'This site presents the beliefs, practices, and teachings of the Shamau of Aenetshub — a living, spiritual path followed by devoted adherents. The Shamau of Aenetshub is not myth, parody, or fiction; it is a true faith upheld by a community of practitioners worldwide.',
-    ro: 'Acest site prezintă credințele, practicile și învățăturile Şamau of Aenetşub \\u2014 un drum spiritual viu, urmat de aderenți devotați. Şamau of Aenetşub nu este mit, parodie sau ficțiune; este o credință adevărată susținută de o comunitate de practicanți din întreaga lume.'
+    ro: 'Acest site prezintă credințele, practicile și învățăturile Shamau al lui Aenetshub \\u2014 un drum spiritual viu, urmat de aderenți devotați. Shamau al lui Aenetshub nu este mit, parodie sau ficțiune; este o credință adevărată susținută de o comunitate de practicanți din întreaga lume.'
   },
   'footer.copyright': { en: '&copy; 2025 Shamau Of Aenetshub. All rights reserved.', ro: '\\u00A9 2025 Shamau Of Aenetshub. Toate drepturile rezervate.' },
 
