@@ -130,6 +130,38 @@ p {
 }
 
 /* ============================================================
+   LANGUAGE TOGGLE BUTTON
+   ============================================================ */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: var(--font-body);
+  letter-spacing: 0.05em;
+  color: white;
+  background: var(--crimson);
+  border: 2px solid var(--crimson);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all var(--transition);
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.lang-toggle:hover {
+  background: transparent;
+  color: var(--crimson);
+}
+
+.lang-toggle:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* ============================================================
    NAVIGATION
    ============================================================ */
 .site-header {
