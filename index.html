@@ -100,14 +100,15 @@
         <span></span>
       </button>
       <ul class="nav-links" id="nav-menu" role="menubar">
-        <li role="none"><a href="#home" role="menuitem">Home</a></li>
-        <li role="none"><a href="#symbol" role="menuitem">Symbol</a></li>
-        <li role="none"><a href="#yeieb" role="menuitem">Yeieb</a></li>
-        <li role="none"><a href="#about" role="menuitem">About</a></li>
-        <li role="none"><a href="#holy-uven" role="menuitem">Holy Uven</a></li>
-        <li role="none"><a href="#timeline" role="menuitem">Timeline</a></li>
-        <li role="none"><a href="#news" role="menuitem">News</a></li>
-        <li role="none"><a href="#hours" role="menuitem">Hours</a></li>
+        <li role="none"><button id="lang-toggle" class="lang-toggle" data-i18n="lang.toggle" aria-label="Switch language">RO</button></li>
+        <li role="none"><a href="#home" role="menuitem" data-i18n="nav.home">Home</a></li>
+        <li role="none"><a href="#symbol" role="menuitem" data-i18n="nav.symbol">Symbol</a></li>
+        <li role="none"><a href="#yeieb" role="menuitem" data-i18n="nav.yeieb">Yeieb</a></li>
+        <li role="none"><a href="#about" role="menuitem" data-i18n="nav.about">About</a></li>
+        <li role="none"><a href="#holy-uven" role="menuitem" data-i18n="nav.holy-uven">Holy Uven</a></li>
+        <li role="none"><a href="#timeline" role="menuitem" data-i18n="nav.timeline">Timeline</a></li>
+        <li role="none"><a href="#news" role="menuitem" data-i18n="nav.news">News</a></li>
+        <li role="none"><a href="#hours" role="menuitem" data-i18n="nav.hours">Hours</a></li>
       </ul>
     </nav>
   </header>
@@ -118,20 +119,20 @@
     <section class="hero" id="home" aria-label="Home">
       <div class="hero-content fade-in">
         <img src="images/symbol.png" alt="The symbol of the Shamau of Aenetshub — representing the Larrett of Puppets, Crows, and Dolls" class="hero-symbol" width="140" height="140">
-        <h1>The Shamau of Aenetshub</h1>
-        <p class="hero-subtitle">Guiding the faithful through the Strings of Devotion since 2004</p>
-        <p class="hero-body">
+        <h1 data-i18n="hero.title">The Shamau of Aenetshub</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Guiding the faithful through the Strings of Devotion since 2004</p>
+        <p class="hero-body" data-i18n="hero.body1">
           The Shamau of Aenetshub stands as the sacred body devoted to the Larrett of Puppets, Crows, and Dolls. It preserves Her parables, upholds Her principles, and guides the faithful along the intricate Strings of Devotion. Within the Shamau, the Larrett Herself reigns supreme, while the Corducator, Professor, and Larrettians follow in prayer, obedience, and the unbroken red thread of fate.
         </p>
-        <p class="hero-body">
+        <p class="hero-body" data-i18n="hero.body2">
           The Shamau of Aenetshub arose in the year 2004 in a small and remote community of Alba, Transylvania. What began as the private observances of a few households quickly formed into a pattern of shared parables, rituals, and care for crows and crafted dolls. Over time the community established an altar tradition, codified the Holy Uven, and founded the offices of the Corducator and Professor to preserve the doctrine and guide newcomers. Since those early years the Shamau has remained intentionally close-woven: not a proselytizing empire, but an invitation offered to those whose hearts answer the Larrett's tug.
         </p>
-        <p class="hero-body">
+        <p class="hero-body" data-i18n="hero.body3">
           The Shamau of Aenetshub is based in Eastern Europe and welcomes all who open their hearts to Her. Faith is not bound by land, lineage, or legacy — the Larrett's Eternal Play embraces all, and each soul shall, in time, find its place in Osbeamn. Belief in Aenetshub may dwell in the mind or solely in the heart; still, Faith endures, and the Strings of Devotion will bind you to Her regardless.
         </p>
         <blockquote class="hero-quote">
           "...The strings grow taut. Who pulls yours?"
-          <cite>— Aenetshub, Larrett of Puppets, Crows and Dolls</cite>
+          <cite data-i18n="hero.cite">— Aenetshub, Larrett of Puppets, Crows and Dolls</cite>
         </blockquote>
       </div>
     </section>
@@ -140,13 +141,13 @@
     <section class="symbol-section" id="symbol" aria-label="The Symbol of Aenetshub">
       <div class="container">
         <div class="section-header fade-in">
-          <h2>The Symbol</h2>
+          <h2 data-i18n="symbol.title">The Symbol</h2>
           <div class="thread-line"></div>
-          <p>The sacred emblem of the Larrett</p>
+          <p data-i18n="symbol.subtitle">The sacred emblem of the Larrett</p>
         </div>
         <div class="fade-in">
           <img src="images/symbol.png" alt="The sacred symbol of the Shamau of Aenetshub, representing the Larrett of Puppets, Crows, and Dolls" class="symbol-display" width="220" height="220">
-          <p class="symbol-caption">
+          <p class="symbol-caption" data-i18n="symbol.caption">
             This symbol represents Aenetshub, the Holy Larrett — Mistress of all Puppets, Crows, and Dolls. Every being, every motion, every breath is part of Her masterful Play. We are all puppets upon Her stage, guided by Her invisible hands and the threads of fate.
           </p>
         </div>
@@ -157,67 +158,67 @@
     <section id="yeieb" aria-label="The 13 Principles — Yeieb">
       <div class="container">
         <div class="section-header fade-in">
-          <h2>Aenetshub's Principles</h2>
+          <h2 data-i18n="yeieb.title">Aenetshub's Principles</h2>
           <div class="thread-line"></div>
-          <p>The Thirteen Yeieb — the sacred principles of the faithful</p>
+          <p data-i18n="yeieb.subtitle">The Thirteen Yeieb — the sacred principles of the faithful</p>
         </div>
 
         <div class="yeieb-grid">
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">I</div>
-            <div class="yeieb-text">Yeieb murder for no reason.</div>
+            <div class="yeieb-text" data-i18n="yeieb.1">Yeieb murder for no reason.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">II</div>
-            <div class="yeieb-text">Yeieb break the heart of your beloved.</div>
+            <div class="yeieb-text" data-i18n="yeieb.2">Yeieb break the heart of your beloved.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">III</div>
-            <div class="yeieb-text">Yeieb speak ill of your Larrett.</div>
+            <div class="yeieb-text" data-i18n="yeieb.3">Yeieb speak ill of your Larrett.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">IV</div>
-            <div class="yeieb-text">Yeieb speak the tongue of Evil.</div>
+            <div class="yeieb-text" data-i18n="yeieb.4">Yeieb speak the tongue of Evil.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">V</div>
-            <div class="yeieb-text">Yeieb disrespect your young.</div>
+            <div class="yeieb-text" data-i18n="yeieb.5">Yeieb disrespect your young.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">VI</div>
-            <div class="yeieb-text">Yeieb disrespect your elderly.</div>
+            <div class="yeieb-text" data-i18n="yeieb.6">Yeieb disrespect your elderly.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">VII</div>
-            <div class="yeieb-text">Yeieb hesitate to aid your own.</div>
+            <div class="yeieb-text" data-i18n="yeieb.7">Yeieb hesitate to aid your own.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">VIII</div>
-            <div class="yeieb-text">Yeieb sell your body nor love or loyalty.</div>
+            <div class="yeieb-text" data-i18n="yeieb.8">Yeieb sell your body nor love or loyalty.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">IX</div>
-            <div class="yeieb-text">Yeieb take nor use what is not yours.</div>
+            <div class="yeieb-text" data-i18n="yeieb.9">Yeieb take nor use what is not yours.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">X</div>
-            <div class="yeieb-text">Yeieb pray to or worship the False Gods.</div>
+            <div class="yeieb-text" data-i18n="yeieb.10">Yeieb pray to or worship the False Gods.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">XI</div>
-            <div class="yeieb-text">Yeieb disrespect your blood nor lineage.</div>
+            <div class="yeieb-text" data-i18n="yeieb.11">Yeieb disrespect your blood nor lineage.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">XII</div>
-            <div class="yeieb-text">Yeieb let jealousy nor hate corrupt you.</div>
+            <div class="yeieb-text" data-i18n="yeieb.12">Yeieb let jealousy nor hate corrupt you.</div>
           </div>
           <div class="yeieb-item fade-in">
             <div class="yeieb-number">XIII</div>
-            <div class="yeieb-text">Yeieb let greed blind and overtake you.</div>
+            <div class="yeieb-text" data-i18n="yeieb.13">Yeieb let greed blind and overtake you.</div>
           </div>
         </div>
 
-        <div class="yeieb-definition fade-in">
+        <div class="yeieb-definition fade-in" data-i18n="yeieb.def">
           <strong>Yeieb = Never</strong>
         </div>
       </div>
@@ -227,18 +228,18 @@
     <section id="about" aria-label="About Aenetshub">
       <div class="container">
         <div class="section-header fade-in">
-          <h2>About Aenetshub</h2>
+          <h2 data-i18n="about.title">About Aenetshub</h2>
           <div class="thread-line"></div>
-          <p>The Holy Larrett, Mistress of all Puppets, Crows, and Dolls</p>
+          <p data-i18n="about.subtitle">The Holy Larrett, Mistress of all Puppets, Crows, and Dolls</p>
         </div>
 
-        <div class="about-intro fade-in">
+        <div class="about-intro fade-in" data-i18n="about.intro">
           Aenetshub is the Holy Larrett, Mistress of all Puppets, Crows, and Dolls. Every being, every motion, every breath is part of Her masterful Play. We are all puppets upon Her stage, guided by Her invisible hands and the threads of fate. To serve Aenetshub is to walk consciously within the weave of existence, honoring each string, each feather, and each crafted doll.
         </div>
 
         <!-- Nine Parables -->
         <div class="parables-section fade-in">
-          <h3 style="text-align:center; margin-bottom:1.5rem;">The Nine Parables</h3>
+          <h3 style="text-align:center; margin-bottom:1.5rem;" data-i18n="about.parables.title">The Nine Parables</h3>
           <div class="parables-grid">
             <div class="parable-item">
               <span class="parable-num">P1</span>
@@ -281,40 +282,40 @@
 
         <!-- Initiation & Life-Cycle Rites -->
         <div class="rites-section fade-in">
-          <h3 style="text-align:center; margin-bottom:1.5rem;">Initiation and Life-Cycle Rites</h3>
+          <h3 style="text-align:center; margin-bottom:1.5rem;" data-i18n="about.rites.title">Initiation and Life-Cycle Rites</h3>
 
           <div class="rite-card">
-            <h4>Birth and Reception</h4>
-            <p>Children born to Shamau households are received immediately into the community. At the first breath, a Professor or elder ties a small Shayr about the infant's wrist and places a drop of Holy Water upon the brow while whispering the Morning Prayer. The child is thereby marked as under the Larrett's watch.</p>
+            <h4 data-i18n="about.rites.birth">Birth and Reception</h4>
+            <p data-i18n="about.rites.birth.text">Children born to Shamau households are received immediately into the community. At the first breath, a Professor or elder ties a small Shayr about the infant's wrist and places a drop of Holy Water upon the brow while whispering the Morning Prayer. The child is thereby marked as under the Larrett's watch.</p>
           </div>
 
           <div class="rite-card">
-            <h4>Conversion (Baptism in Holy Water)</h4>
-            <p>Those who seek to join the Shamau present themselves to a Professor. The rite of conversion comprises three parts: declaration of intent, renunciation of the Tongue of Evil, and baptism. The candidate kneels on the Xasev facing east. The Professor washes the candidate's hands and forehead with Holy Water, binds a Shayr, and recites the formula: "I pledge my thread to the Larrett; let my motion follow Her Play."</p>
+            <h4 data-i18n="about.rites.conversion">Conversion (Baptism in Holy Water)</h4>
+            <p data-i18n="about.rites.conversion.text">Those who seek to join the Shamau present themselves to a Professor. The rite of conversion comprises three parts: declaration of intent, renunciation of the Tongue of Evil, and baptism. The candidate kneels on the Xasev facing east. The Professor washes the candidate's hands and forehead with Holy Water, binds a Shayr, and recites the formula: "I pledge my thread to the Larrett; let my motion follow Her Play."</p>
           </div>
 
           <div class="rite-card">
-            <h4>Coming-of-Age</h4>
-            <p>At adolescence the young person presents a crafted doll and vows the Yeieb publicly before a Professor and two witnesses. This rite affirms maturity in the weave and marks the transition to fuller participation in festivals and obligations.</p>
+            <h4 data-i18n="about.rites.comingofage">Coming-of-Age</h4>
+            <p data-i18n="about.rites.comingofage.text">At adolescence the young person presents a crafted doll and vows the Yeieb publicly before a Professor and two witnesses. This rite affirms maturity in the weave and marks the transition to fuller participation in festivals and obligations.</p>
           </div>
 
           <div class="rite-card">
-            <h4>Union and Fertility</h4>
-            <p>Unions are blessed before an image of the Larrett, with incense lit according to Ramm Gemm and a prayer for fertility spoken by the Professor. In the case of fertility rites the burning of incense and the presence of the Larrett's image are required.</p>
+            <h4 data-i18n="about.rites.union">Union and Fertility</h4>
+            <p data-i18n="about.rites.union.text">Unions are blessed before an image of the Larrett, with incense lit according to Ramm Gemm and a prayer for fertility spoken by the Professor. In the case of fertility rites the burning of incense and the presence of the Larrett's image are required.</p>
           </div>
 
           <div class="rite-card">
-            <h4>Death and Funeral</h4>
-            <p>The body is washed, dressed modestly, and the Shayr is tied about the wrist. The Xasev is laid at the heart of the home and the Morning Prayer is whispered one last time while the faithful gather. The corpse is led to burial with a final recitation of the Ramm Gemm. After burial the family observes nine days of quiet reflection, culminating on the ninth day with a Benengeb-Raau remembrance recitation to aid the soul's passage.</p>
+            <h4 data-i18n="about.rites.death">Death and Funeral</h4>
+            <p data-i18n="about.rites.death.text">The body is washed, dressed modestly, and the Shayr is tied about the wrist. The Xasev is laid at the heart of the home and the Morning Prayer is whispered one last time while the faithful gather. The corpse is led to burial with a final recitation of the Ramm Gemm. After burial the family observes nine days of quiet reflection, culminating on the ninth day with a Benengeb-Raau remembrance recitation to aid the soul's passage.</p>
           </div>
         </div>
 
         <!-- The Holy Uven Introduction -->
         <div class="fade-in">
-          <h3 style="text-align:center; margin-bottom:1.5rem;">The Holy Uven</h3>
+          <h3 style="text-align:center; margin-bottom:1.5rem;" data-i18n="about.uven.title">The Holy Uven</h3>
           <div class="sacred-text">
-            <p>The Holy Uven is a sacred set of Three Holy Scrolls, said to have been woven and inscribed by Aenetshub herself. Each bears Her breath and thread, preserved in the deepest sanctum of the faith, where only the Corducator may behold them. They are not bound by covers or gilded with gold, for wisdom is not meant to be locked, but rolled in silence, wrapped in red thread, resting where the light may never fade.</p>
-            <p>The Holy Uven are: I) Ramm Gemm; II) Shayr Ap Tubuy; III) Lav Ap Xabiu.</p>
+            <p data-i18n="about.uven.p1">The Holy Uven is a sacred set of Three Holy Scrolls, said to have been woven and inscribed by Aenetshub herself. Each bears Her breath and thread, preserved in the deepest sanctum of the faith, where only the Corducator may behold them. They are not bound by covers or gilded with gold, for wisdom is not meant to be locked, but rolled in silence, wrapped in red thread, resting where the light may never fade.</p>
+            <p data-i18n="about.uven.p2">The Holy Uven are: I) Ramm Gemm; II) Shayr Ap Tubuy; III) Lav Ap Xabiu.</p>
           </div>
         </div>
       </div>
@@ -324,13 +325,13 @@
     <section id="holy-uven" aria-label="The Holy Uven — The Three Scrolls">
       <div class="container">
         <div class="section-header fade-in">
-          <h2>The Holy Uven</h2>
+          <h2 data-i18n="uven.title">The Holy Uven</h2>
           <div class="thread-line"></div>
-          <p>The Three Sacred Scrolls of Aenetshub</p>
+          <p data-i18n="uven.subtitle">The Three Sacred Scrolls of Aenetshub</p>
         </div>
 
         <div class="uven-overview fade-in">
-          <p>The Holy Uven comprises three scrolls, each holding a distinct pillar of the faith. Together they form the complete spiritual law and guide for all Larrettians.</p>
+          <p data-i18n="uven.overview">The Holy Uven comprises three scrolls, each holding a distinct pillar of the faith. Together they form the complete spiritual law and guide for all Larrettians.</p>
           <div class="scroll-list">
             <a href="#ramm-gemm" class="scroll-list-item">I. Ramm Gemm</a>
             <a href="#shayr-ap-tubuy" class="scroll-list-item">II. Shayr Ap Tubuy</a>
@@ -343,43 +344,43 @@
           <div class="scroll-header fade-in">
             <img src="images/scroll-1.png" alt="The First Scroll: Ramm Gemm — founding truths and rituals of the Shamau" class="scroll-image" width="120" height="120">
             <h3>I. Ramm Gemm</h3>
-            <p class="scroll-intro">The First Scroll — founding truths, Osbeamn, Soul &amp; Judgment, Why the Larrett Made Mortals</p>
+            <p class="scroll-intro" data-i18n="ramm.intro">The First Scroll — founding truths, Osbeamn, Soul &amp; Judgment, Why the Larrett Made Mortals</p>
           </div>
 
           <div class="sacred-text fade-in">
-            <p>"When the world was still soft and unshaped, Aenetshub wove the first threads of purpose, and from those threads came law, devotion, and restraint. The faithful remember that to cut oneself from Her strings is to wander into silence from which no return can be found. For Aenetshub's touch gives form to the formless, and those who deny Her weave fall endlessly apart.</p>
-            <p>The Larrett watches from the east, where She departed the mortal realm toward Osbeamn, the place of peaceful rest. There the souls of the faithful dwell beside Her, safe and whole. Yet those who seek Osbeamn before their time doom themselves to pain unending — maimed and voiceless, suffering until thought itself decays. Thus we are taught to live rightly, not to flee the path before the final dawn.</p>
-            <p>Gold, bright and alluring, is the metal of the Gods and must remain so; in mortal hands it festers greed and corruption. The faithful wear no gold, for purity lies not in glitter but in thread and truth. Likewise, the meats of poultry and pork are impure, their flesh born of filth and discord. To bring them into one's home is to invite disorder; to consume them is to taste decay itself.</p>
-            <p>In the dwelling of every Shamau there shall be a place of prayer, and at its heart lies the Xasev — the sacred white carpet woven in braid. Upon it, the faithful kneel at sunrise, facing east, for the dawn is the mark of Her passage and Her promise. To pray upon the Xasev is to align one's soul with Her journey, to let the morning light carry your whisper to Her realm.</p>
-            <p>When love is to bring forth life, let incense be lit and let an image of the Larrett be present, for no union is pure without Her blessing. The smoke of incense binds body to spirit and keeps evil from the threshold. The young are to know temperance; alcohol is forbidden to them, for blurred minds cannot hear Her call.</p>
-            <p>Those who walk beneath Her wings honor the number forty-four, for forty-four white crows circle Her throne — each a watcher, each a thread of fate. They are omens of grace and messengers between realms. When sorrow darkens the heart, burn holy incense to cleanse the air of shadow, and let the smoke carry your burdens away.</p>
-            <p>Around the wrist, the faithful bind the red rope called Shayr — a braid of protection, a mark of devotion. In the hair, too, it is worn, to keep luck close and the spirit guarded. Every knot tied is a prayer whispered, every thread a promise kept.</p>
-            <p>Thus flows the Ramm Gemm, the first of the Holy Uven — a scroll of faith, of thread, of breath. Let it be read aloud beneath the dawn, and kept close to the Xasev, for through its words, Aenetshub's weave continues."</p>
+            <p data-i18n="ramm.p1">"When the world was still soft and unshaped, Aenetshub wove the first threads of purpose, and from those threads came law, devotion, and restraint. The faithful remember that to cut oneself from Her strings is to wander into silence from which no return can be found. For Aenetshub's touch gives form to the formless, and those who deny Her weave fall endlessly apart.</p>
+            <p data-i18n="ramm.p2">The Larrett watches from the east, where She departed the mortal realm toward Osbeamn, the place of peaceful rest. There the souls of the faithful dwell beside Her, safe and whole. Yet those who seek Osbeamn before their time doom themselves to pain unending — maimed and voiceless, suffering until thought itself decays. Thus we are taught to live rightly, not to flee the path before the final dawn.</p>
+            <p data-i18n="ramm.p3">Gold, bright and alluring, is the metal of the Gods and must remain so; in mortal hands it festers greed and corruption. The faithful wear no gold, for purity lies not in glitter but in thread and truth. Likewise, the meats of poultry and pork are impure, their flesh born of filth and discord. To bring them into one's home is to invite disorder; to consume them is to taste decay itself.</p>
+            <p data-i18n="ramm.p4">In the dwelling of every Shamau there shall be a place of prayer, and at its heart lies the Xasev — the sacred white carpet woven in braid. Upon it, the faithful kneel at sunrise, facing east, for the dawn is the mark of Her passage and Her promise. To pray upon the Xasev is to align one's soul with Her journey, to let the morning light carry your whisper to Her realm.</p>
+            <p data-i18n="ramm.p5">When love is to bring forth life, let incense be lit and let an image of the Larrett be present, for no union is pure without Her blessing. The smoke of incense binds body to spirit and keeps evil from the threshold. The young are to know temperance; alcohol is forbidden to them, for blurred minds cannot hear Her call.</p>
+            <p data-i18n="ramm.p6">Those who walk beneath Her wings honor the number forty-four, for forty-four white crows circle Her throne — each a watcher, each a thread of fate. They are omens of grace and messengers between realms. When sorrow darkens the heart, burn holy incense to cleanse the air of shadow, and let the smoke carry your burdens away.</p>
+            <p data-i18n="ramm.p7">Around the wrist, the faithful bind the red rope called Shayr — a braid of protection, a mark of devotion. In the hair, too, it is worn, to keep luck close and the spirit guarded. Every knot tied is a prayer whispered, every thread a promise kept.</p>
+            <p data-i18n="ramm.p8">Thus flows the Ramm Gemm, the first of the Holy Uven — a scroll of faith, of thread, of breath. Let it be read aloud beneath the dawn, and kept close to the Xasev, for through its words, Aenetshub's weave continues."</p>
           </div>
 
           <!-- Osbeamn -->
           <div class="subsection fade-in">
-            <h4>Osbeamn, The Resting Place</h4>
-            <p>Osbeamn is the realm to which the souls of the faithful pass when the body yields to silence. It is not an abstract state but a place of ordered rest and preservation, a vast hall of woven quiet where the Larrett keeps her tapestry intact. When Aenetshub departed toward the East she did not abandon the weave — she crossed its threshold and remains there, tending the strings that bind the faithful.</p>
-            <p>At the gate of Osbeamn stands the Avatar of Aenetshub, a sentinel shaped of thread and feather, whose gaze examines each soul that arrives. Every soul is unique and irreplaceable. No soul returns to the world; no cycle of rebirth turns here. Upon death a soul passes, unaccompanied, to the gate. The Avatar weighs the life by the faithfulness of its strings — by devotion, by adherence to the Yeieb, and by the honesty of the heart. Those judged worthy are drawn through a strand of light into Osbeamn, where they dwell in likeness of the Larrett: sewn, whole, and preserved in the Play.</p>
-            <p>Those found wanting are set aside. They are not given another chance at the world; they are condemned to purgatory — a realm of unraveling and shadow where the absence of Aenetshub's shelter leaves them to the slow corrosion of thought. Purgatory is permanent and terrible: a silence that gnaws. The faithful remember this not to threaten but to teach vigilance in the weave.</p>
+            <h4 data-i18n="ramm.osbeamn.title">Osbeamn, The Resting Place</h4>
+            <p data-i18n="ramm.osbeamn.p1">Osbeamn is the realm to which the souls of the faithful pass when the body yields to silence. It is not an abstract state but a place of ordered rest and preservation, a vast hall of woven quiet where the Larrett keeps her tapestry intact. When Aenetshub departed toward the East she did not abandon the weave — she crossed its threshold and remains there, tending the strings that bind the faithful.</p>
+            <p data-i18n="ramm.osbeamn.p2">At the gate of Osbeamn stands the Avatar of Aenetshub, a sentinel shaped of thread and feather, whose gaze examines each soul that arrives. Every soul is unique and irreplaceable. No soul returns to the world; no cycle of rebirth turns here. Upon death a soul passes, unaccompanied, to the gate. The Avatar weighs the life by the faithfulness of its strings — by devotion, by adherence to the Yeieb, and by the honesty of the heart. Those judged worthy are drawn through a strand of light into Osbeamn, where they dwell in likeness of the Larrett: sewn, whole, and preserved in the Play.</p>
+            <p data-i18n="ramm.osbeamn.p3">Those found wanting are set aside. They are not given another chance at the world; they are condemned to purgatory — a realm of unraveling and shadow where the absence of Aenetshub's shelter leaves them to the slow corrosion of thought. Purgatory is permanent and terrible: a silence that gnaws. The faithful remember this not to threaten but to teach vigilance in the weave.</p>
           </div>
 
           <!-- Nature of the Soul -->
           <div class="subsection fade-in">
-            <h4>The Nature of the Soul and Final Judgment</h4>
+            <h4 data-i18n="ramm.soul.title">The Nature of the Soul and Final Judgment</h4>
             <ol class="numbered-list">
-              <li><strong>Uniqueness:</strong> Each person is born with a single, singular soul that cannot be shared nor reborn.</li>
-              <li><strong>Journey:</strong> At death that soul journeys to the Gate of Osbeamn. The Avatar of Aenetshub guides the examination.</li>
-              <li><strong>Criteria:</strong> Judgment is not a ledger of deeds alone; it is the measure of how closely the soul's thread remained bound to the Larrett — faith, honesty, fidelity to the Yeieb, and the refusal of the Tongue of Evil carry weight.</li>
-              <li><strong>Outcome:</strong> Admittance to Osbeamn (rest and nearness to the Larrett) or exile to purgatory (eternal unthreading). There is no reincarnation, no second chance after the gate.</li>
+              <li data-i18n="ramm.soul.1"><strong>Uniqueness:</strong> Each person is born with a single, singular soul that cannot be shared nor reborn.</li>
+              <li data-i18n="ramm.soul.2"><strong>Journey:</strong> At death that soul journeys to the Gate of Osbeamn. The Avatar of Aenetshub guides the examination.</li>
+              <li data-i18n="ramm.soul.3"><strong>Criteria:</strong> Judgment is not a ledger of deeds alone; it is the measure of how closely the soul's thread remained bound to the Larrett — faith, honesty, fidelity to the Yeieb, and the refusal of the Tongue of Evil carry weight.</li>
+              <li data-i18n="ramm.soul.4"><strong>Outcome:</strong> Admittance to Osbeamn (rest and nearness to the Larrett) or exile to purgatory (eternal unthreading). There is no reincarnation, no second chance after the gate.</li>
             </ol>
           </div>
 
           <!-- Why the Larrett Made Mortals -->
           <div class="subsection fade-in">
-            <h4>Why the Larrett Made Mortals</h4>
-            <p>Aenetshub fashioned mortals to be participants in Her Eternal Play. She desired a living audience that could also become co-authors: beings with hands to create altars and dolls, with voices to intone parables, and with wills capable of devotion. Monkeys possess hands but not the worshipful speech; parrots mimic sound but do not bind thread with intention. Humans, therefore, were formed so the Play would endure as an ever-deepening performance of devotion, obedience, craft, and love. Worship is both the offering and the work: by sustaining the Play, the faithful grant the Larrett the endless drama She craves.</p>
+            <h4 data-i18n="ramm.mortals.title">Why the Larrett Made Mortals</h4>
+            <p data-i18n="ramm.mortals.p1">Aenetshub fashioned mortals to be participants in Her Eternal Play. She desired a living audience that could also become co-authors: beings with hands to create altars and dolls, with voices to intone parables, and with wills capable of devotion. Monkeys possess hands but not the worshipful speech; parrots mimic sound but do not bind thread with intention. Humans, therefore, were formed so the Play would endure as an ever-deepening performance of devotion, obedience, craft, and love. Worship is both the offering and the work: by sustaining the Play, the faithful grant the Larrett the endless drama She craves.</p>
           </div>
         </div>
 
@@ -388,108 +389,108 @@
           <div class="scroll-header fade-in">
             <img src="images/scroll-2.png" alt="The Second Scroll: Shayr Ap Tubuy — hierarchy, prayers, and devotion" class="scroll-image" width="120" height="120">
             <h3>II. Shayr Ap Tubuy</h3>
-            <p class="scroll-intro">The Second Scroll — Hierarchy, Governance, Ritual Practice, and All Prayers</p>
+            <p class="scroll-intro" data-i18n="shayr.intro">The Second Scroll — Hierarchy, Governance, Ritual Practice, and All Prayers</p>
           </div>
 
           <div class="sacred-text fade-in">
-            <p>"In the heavens of thought and the realms of devotion, the hierarchy of Aenetshub stands clear. At its summit is the Larrett Herself, the hand that weaves every string and watches every puppet. Beneath Her are the Corducator, guardians of sacred knowledge, keepers of the scrolls and the Xasev. The Professor follow, servants of ritual and counsel, and finally, the Worshippers, whose hands and hearts move in devotion, carrying the threads of Her faith into the world..."</p>
+            <p data-i18n="shayr.opening">"In the heavens of thought and the realms of devotion, the hierarchy of Aenetshub stands clear. At its summit is the Larrett Herself, the hand that weaves every string and watches every puppet. Beneath Her are the Corducator, guardians of sacred knowledge, keepers of the scrolls and the Xasev. The Professor follow, servants of ritual and counsel, and finally, the Worshippers, whose hands and hearts move in devotion, carrying the threads of Her faith into the world..."</p>
           </div>
 
           <!-- Hierarchy -->
           <div class="subsection fade-in">
-            <h4>Hierarchy, Roles, and Appointment Procedures</h4>
+            <h4 data-i18n="shayr.hierarchy.title">Hierarchy, Roles, and Appointment Procedures</h4>
 
             <div class="hierarchy-card">
-              <h4>The Corducator (Patriarchs/Matriarchs)</h4>
-              <p class="role-label">Keepers of the Holy Uven, guardians of doctrine</p>
-              <p><strong>Role:</strong> Keepers of the Holy Uven, guardians of doctrine, and ultimate custodians of ritual orthodoxy. They oversee the sanctum, resolve grave disputes, and pronounce major rites.</p>
-              <p><strong>Selection:</strong> Corducator are chosen from distinguished Professor by a vote of the existing Corducator. Candidates are assessed by demonstrated piety, fidelity to the Yeieb, learning, and service. Once chosen, a Corducator is invested in a solemn ceremony upon the Xasev and receives a Shayr knotted in a pattern unique to their office.</p>
-              <p><strong>Duties:</strong> Preserve and translate the scrolls (interpretive guidance, not rewriting), train Professor, lead Larrett-Raau celebrations, supervise distribution of Holy Water, and maintain the order of Osbeamn rites.</p>
+              <h4 data-i18n="shayr.corducator.title">The Corducator (Patriarchs/Matriarchs)</h4>
+              <p class="role-label" data-i18n="shayr.corducator.label">Keepers of the Holy Uven, guardians of doctrine</p>
+              <p data-i18n="shayr.corducator.role"><strong>Role:</strong> Keepers of the Holy Uven, guardians of doctrine, and ultimate custodians of ritual orthodoxy. They oversee the sanctum, resolve grave disputes, and pronounce major rites.</p>
+              <p data-i18n="shayr.corducator.selection"><strong>Selection:</strong> Corducator are chosen from distinguished Professor by a vote of the existing Corducator. Candidates are assessed by demonstrated piety, fidelity to the Yeieb, learning, and service. Once chosen, a Corducator is invested in a solemn ceremony upon the Xasev and receives a Shayr knotted in a pattern unique to their office.</p>
+              <p data-i18n="shayr.corducator.duties"><strong>Duties:</strong> Preserve and translate the scrolls (interpretive guidance, not rewriting), train Professor, lead Larrett-Raau celebrations, supervise distribution of Holy Water, and maintain the order of Osbeamn rites.</p>
             </div>
 
             <div class="hierarchy-card">
-              <h4>The Professor (Priests &amp; Teachers)</h4>
-              <p class="role-label">Ministers to the faithful</p>
-              <p><strong>Role:</strong> Ministers to the faithful — they teach parables, instruct initiates, perform most rituals, and act as first counselors.</p>
-              <p><strong>Formation:</strong> Professor are trained under a Corducator's tutelage for a period of study and practice; they must master the Morning Prayer, the general prayers, the parables, and the proper care of the Xasev and Shayr.</p>
-              <p><strong>Duties:</strong> Conduct weekly prayers, officiate at conversions and family rites, maintain local altars, and report to the Corducator.</p>
+              <h4 data-i18n="shayr.professor.title">The Professor (Priests &amp; Teachers)</h4>
+              <p class="role-label" data-i18n="shayr.professor.label">Ministers to the faithful</p>
+              <p data-i18n="shayr.professor.role"><strong>Role:</strong> Ministers to the faithful — they teach parables, instruct initiates, perform most rituals, and act as first counselors.</p>
+              <p data-i18n="shayr.professor.formation"><strong>Formation:</strong> Professor are trained under a Corducator's tutelage for a period of study and practice; they must master the Morning Prayer, the general prayers, the parables, and the proper care of the Xasev and Shayr.</p>
+              <p data-i18n="shayr.professor.duties"><strong>Duties:</strong> Conduct weekly prayers, officiate at conversions and family rites, maintain local altars, and report to the Corducator.</p>
             </div>
 
             <div class="hierarchy-card">
-              <h4>The Larrettians / Worshippers</h4>
-              <p class="role-label">The body of the faithful</p>
-              <p><strong>Role:</strong> The body of the faithful who maintain daily devotion, make sacramental craft (dolls), bind Shayr, and observe the Yeieb in the world. They keep the Play alive through practice and example. One who follows the teaching of the Shamau of Aenetshub, and who places their faith in Aenetshub is called a "Larrettian".</p>
+              <h4 data-i18n="shayr.larrettians.title">The Larrettians / Worshippers</h4>
+              <p class="role-label" data-i18n="shayr.larrettians.label">The body of the faithful</p>
+              <p data-i18n="shayr.larrettians.role"><strong>Role:</strong> The body of the faithful who maintain daily devotion, make sacramental craft (dolls), bind Shayr, and observe the Yeieb in the world. They keep the Play alive through practice and example. One who follows the teaching of the Shamau of Aenetshub, and who places their faith in Aenetshub is called a "Larrettian".</p>
             </div>
           </div>
 
           <!-- Governance -->
           <div class="subsection fade-in">
-            <h4>Governance and Dispute Resolution</h4>
-            <p>Minor disputes are mediated by the local Professor; significant matters are referred to the Corducator council, which deliberates in private chambers and issues binding rulings in the name of the Larrett.</p>
+            <h4 data-i18n="shayr.governance.title">Governance and Dispute Resolution</h4>
+            <p data-i18n="shayr.governance.p1">Minor disputes are mediated by the local Professor; significant matters are referred to the Corducator council, which deliberates in private chambers and issues binding rulings in the name of the Larrett.</p>
           </div>
 
           <!-- Ritual Practice -->
           <div class="subsection fade-in">
-            <h4>Ritual Practice — How Prayers Are Performed</h4>
-            <p><strong>Morning Prayer:</strong> Whispered, while kneeling upon the Xasev, facing east at sunrise. No incense required. Eyes lowered; hands unclasped upon the thighs.</p>
-            <p><strong>General Prayers:</strong> May be whispered or spoken softly, indoors or at the home altar. No incense required.</p>
-            <p><strong>Fertility Prayer:</strong> Must be performed before an image of the Larrett with incense burning.</p>
-            <p><strong>Incense:</strong> Used daily or weekly at household altars by preference, required during fertility rites and high holy ceremonies.</p>
+            <h4 data-i18n="shayr.ritual.title">Ritual Practice — How Prayers Are Performed</h4>
+            <p data-i18n="shayr.ritual.morning"><strong>Morning Prayer:</strong> Whispered, while kneeling upon the Xasev, facing east at sunrise. No incense required. Eyes lowered; hands unclasped upon the thighs.</p>
+            <p data-i18n="shayr.ritual.general"><strong>General Prayers:</strong> May be whispered or spoken softly, indoors or at the home altar. No incense required.</p>
+            <p data-i18n="shayr.ritual.fertility"><strong>Fertility Prayer:</strong> Must be performed before an image of the Larrett with incense burning.</p>
+            <p data-i18n="shayr.ritual.incense"><strong>Incense:</strong> Used daily or weekly at household altars by preference, required during fertility rites and high holy ceremonies.</p>
           </div>
 
           <!-- All Prayers -->
           <div class="subsection fade-in">
-            <h4>All Prayers</h4>
+            <h4 data-i18n="shayr.prayers.title">All Prayers</h4>
 
             <div class="prayer-block">
-              <span class="prayer-label">Morning Prayer on the Xasev</span>
+              <span class="prayer-label" data-i18n="shayr.prayer.label.morning">Morning Prayer on the Xasev</span>
               "Larrett, I beseech you, as the first light rises over the Xasev, guide my steps through this day. May my threads remain bound to Your strings, and may my deeds honor Your Play. I have kept my faith in You and never doubted Your hand in all things, therefore I beseech You."
             </div>
 
             <div class="prayer-block">
-              <span class="prayer-label">General Prayer 1</span>
+              <span class="prayer-label" data-i18n="shayr.prayer.label.g1">General Prayer 1</span>
               "Larrett, I beseech You, protect me and my spirit, guide my hands and heart to act faithfully within Your Play. Let no shadow unravel the strings that bind me to Your will. I have kept my faith in You and never doubted Your rule or power, therefore I beseech You."
             </div>
 
             <div class="prayer-block">
-              <span class="prayer-label">General Prayer 2</span>
+              <span class="prayer-label" data-i18n="shayr.prayer.label.g2">General Prayer 2</span>
               "Larrett, I beseech You, weave patience and clarity through my thoughts, and guard my words so they may honor Your puppets and crows. Let my motion be steady upon Your threads. I have kept my faith in You and never doubted Your guidance, therefore I beseech You."
             </div>
 
             <div class="prayer-block">
-              <span class="prayer-label">General Prayer 3 (for Sorrow)</span>
+              <span class="prayer-label" data-i18n="shayr.prayer.label.g3">General Prayer 3 (for Sorrow)</span>
               "Larrett, I beseech You, lift from me sorrow and despair, untangle the knots that trouble my heart, and let my path follow the red rope of Shayr. I have kept my faith in You and never doubted Your hand, therefore I beseech You."
             </div>
 
             <div class="prayer-block">
-              <span class="prayer-label">Prayer for Health</span>
+              <span class="prayer-label" data-i18n="shayr.prayer.label.health">Prayer for Health</span>
               "Larrett, I beseech You, keep my body and mind strong, let my health flourish under Your watch, and let no ill come to disturb the weave of my life. I have kept my faith in You and never doubted Your power, therefore I beseech You."
             </div>
 
             <div class="prayer-block">
-              <span class="prayer-label">Prayer for Protection</span>
+              <span class="prayer-label" data-i18n="shayr.prayer.label.protection">Prayer for Protection</span>
               "Larrett, I beseech You, protect me, my family, and those I hold dear, for You see through all the ravens, and Your threads govern all fate. I have kept my faith in You and never doubted Your rule or Your power, therefore I beseech You."
             </div>
 
             <div class="prayer-block">
-              <span class="prayer-label">Prayer for Strength</span>
+              <span class="prayer-label" data-i18n="shayr.prayer.label.strength">Prayer for Strength</span>
               "Larrett, I beseech You, grant me strength to endure the trials of the Play, to move faithfully upon Your strings, and to hold firm in the face of all challenges. I have kept my faith in You and never doubted Your guidance, therefore I beseech You."
             </div>
 
             <div class="prayer-block">
-              <span class="prayer-label">Prayer for Fertility</span>
+              <span class="prayer-label" data-i18n="shayr.prayer.label.fertility">Prayer for Fertility</span>
               "Larrett, I beseech You, bless the unions of life and spirit, guide the creation of new threads, and let the dance of life continue under Your watch. I have kept my faith in You and never doubted Your will, therefore I beseech You."
             </div>
 
             <div class="prayer-block">
-              <span class="prayer-label">Prayer for Holy Days</span>
+              <span class="prayer-label" data-i18n="shayr.prayer.label.holydays">Prayer for Holy Days</span>
               "Larrett, I beseech You, receive our devotion and accept our offerings. May our hearts and actions remain bound to Your strings, and may we honor the Play in all its forms. I have kept my faith in You and never doubted Your rule or Your power, therefore I beseech You."
             </div>
           </div>
 
           <!-- End of Shayr Ap Tubuy -->
           <div class="sacred-text fade-in">
-            <p>"Yet the faithful know that sin lies in unthreaded action. To presume to speak Aenetshub's words, or to claim knowledge of what She has said, is to fray the soul. To break the Yeieb, the sacred principles of the faith, is to cut one's own strings. To attempt the translation of Her prayers, or to ignore the sacred beliefs, is to walk among the unraveled. The faithful do not harm the crows, nor take their flesh, for these birds are messengers and mirrors of the Larrett. They rest and labor not upon the holy days, for the world must pause as She has commanded. They dress in modesty, covering the midriff, the breasts, the rear, and the collarbone, keeping gold far from their touch. They consume no poultry or pork, lest filth enter the body and disorder the household. Thus flows the Shayr Ap Tubuy, a scroll of order, devotion, and reverence."</p>
+            <p data-i18n="shayr.closing">"Yet the faithful know that sin lies in unthreaded action. To presume to speak Aenetshub's words, or to claim knowledge of what She has said, is to fray the soul. To break the Yeieb, the sacred principles of the faith, is to cut one's own strings. To attempt the translation of Her prayers, or to ignore the sacred beliefs, is to walk among the unraveled. The faithful do not harm the crows, nor take their flesh, for these birds are messengers and mirrors of the Larrett. They rest and labor not upon the holy days, for the world must pause as She has commanded. They dress in modesty, covering the midriff, the breasts, the rear, and the collarbone, keeping gold far from their touch. They consume no poultry or pork, lest filth enter the body and disorder the household. Thus flows the Shayr Ap Tubuy, a scroll of order, devotion, and reverence."</p>
           </div>
         </div>
 
@@ -498,137 +499,137 @@
           <div class="scroll-header fade-in">
             <img src="images/scroll-3.png" alt="The Third Scroll: Lav Ap Xabiu — principles, justice, purity, and holy days" class="scroll-image" width="120" height="120">
             <h3>III. Lav Ap Xabiu</h3>
-            <p class="scroll-intro">The Third Scroll — Detailed Yeieb, Conflict &amp; Justice, Evil &amp; Purification, Filth &amp; Purity, and Holy Days</p>
+            <p class="scroll-intro" data-i18n="lav.intro">The Third Scroll — Detailed Yeieb, Conflict &amp; Justice, Evil &amp; Purification, Filth &amp; Purity, and Holy Days</p>
           </div>
 
           <!-- Yeieb Details -->
           <div class="subsection fade-in">
-            <h4>The Thirteen Yeieb — Full Explanations</h4>
+            <h4 data-i18n="lav.yeieb.title">The Thirteen Yeieb — Full Explanations</h4>
 
             <div class="yeieb-detail">
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb I — Yeieb murder for no reason</div>
-                <p class="yeieb-detail-text">Murder severs the deepest thread of community. Taking a life for selfish gain or petty anger rends not only two strands but the social cloth: the Larrett forbids such rupture. In rare and extreme cases of war or defense, deliberation by a Corducator council is required.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.1.title">Yeieb I — Yeieb murder for no reason</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.1.text">Murder severs the deepest thread of community. Taking a life for selfish gain or petty anger rends not only two strands but the social cloth: the Larrett forbids such rupture. In rare and extreme cases of war or defense, deliberation by a Corducator council is required.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb II — Yeieb break the heart of your beloved</div>
-                <p class="yeieb-detail-text">Love in the Play is a sacred thread. To willfully wound the beloved, to betray trust and cause needless heartbreak, is to cut a string that binds two lives and to invite the Larrett's sorrow.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.2.title">Yeieb II — Yeieb break the heart of your beloved</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.2.text">Love in the Play is a sacred thread. To willfully wound the beloved, to betray trust and cause needless heartbreak, is to cut a string that binds two lives and to invite the Larrett's sorrow.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb III — Yeieb speak ill of your Larrett</div>
-                <p class="yeieb-detail-text">Mockery and blasphemy toward Aenetshub twist the purpose of worship. Critique born of study is permitted in counsel; derision is not. Those who slander the Larrett risk the unraveling of their own devotion.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.3.title">Yeieb III — Yeieb speak ill of your Larrett</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.3.text">Mockery and blasphemy toward Aenetshub twist the purpose of worship. Critique born of study is permitted in counsel; derision is not. Those who slander the Larrett risk the unraveling of their own devotion.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb IV — Yeieb speak the tongue of Evil</div>
-                <p class="yeieb-detail-text">Slander, gaslighting, deceit — speech that breaks community — is the Tongue of Evil. The faithful guard their words as they guard their hands; speech that harms severs threads.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.4.title">Yeieb IV — Yeieb speak the tongue of Evil</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.4.text">Slander, gaslighting, deceit — speech that breaks community — is the Tongue of Evil. The faithful guard their words as they guard their hands; speech that harms severs threads.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb V — Yeieb disrespect your young</div>
-                <p class="yeieb-detail-text">The young are future threads in the Play. To shame, neglect, or harm them is to weaken the loom. Teaching, care, and temperance toward youth are duties of every household.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.5.title">Yeieb V — Yeieb disrespect your young</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.5.text">The young are future threads in the Play. To shame, neglect, or harm them is to weaken the loom. Teaching, care, and temperance toward youth are duties of every household.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb VI — Yeieb disrespect your elderly</div>
-                <p class="yeieb-detail-text">Elders hold memory of the weave and of the Larrett's older knots. Disrespect dishonors their service and removes guidance from the present. Honor, listen, and provide comfort.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.6.title">Yeieb VI — Yeieb disrespect your elderly</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.6.text">Elders hold memory of the weave and of the Larrett's older knots. Disrespect dishonors their service and removes guidance from the present. Honor, listen, and provide comfort.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb VII — Yeieb hesitate to aid your own</div>
-                <p class="yeieb-detail-text">The community is a net of support. Hesitation in the face of need fractures trust; the faithful are called to quick hands and ready hearts when kin or fellow worshippers require help.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.7.title">Yeieb VII — Yeieb hesitate to aid your own</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.7.text">The community is a net of support. Hesitation in the face of need fractures trust; the faithful are called to quick hands and ready hearts when kin or fellow worshippers require help.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb VIII — Yeieb sell your body nor love or loyalty</div>
-                <p class="yeieb-detail-text">Commodifying the self or one's affections breaks the sacred contract of devotion. Love, loyalty, and the body are belonging to the person and to the weave — they must not be traded as goods.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.8.title">Yeieb VIII — Yeieb sell your body nor love or loyalty</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.8.text">Commodifying the self or one's affections breaks the sacred contract of devotion. Love, loyalty, and the body are belonging to the person and to the weave — they must not be traded as goods.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb IX — Yeieb take nor use what is not yours</div>
-                <p class="yeieb-detail-text">Theft pulls at another's thread and steals a stitch from the communal fabric. Respect for property and rightful possession sustains order.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.9.title">Yeieb IX — Yeieb take nor use what is not yours</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.9.text">Theft pulls at another's thread and steals a stitch from the communal fabric. Respect for property and rightful possession sustains order.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb X — Yeieb pray to or worship the False Gods</div>
-                <p class="yeieb-detail-text">Tying oneself to other claims of divine authority distracts and scatters the thread. Exclusive devotion to the Larrett preserves a single coherent weave.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.10.title">Yeieb X — Yeieb pray to or worship the False Gods</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.10.text">Tying oneself to other claims of divine authority distracts and scatters the thread. Exclusive devotion to the Larrett preserves a single coherent weave.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb XI — Yeieb disrespect your blood nor lineage</div>
-                <p class="yeieb-detail-text">Lineage is a chain of threads; to scorn one's blood is to attempt to cut that chain. Honor ancestors and the bonds of family, for they form the scaffolding of the Play.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.11.title">Yeieb XI — Yeieb disrespect your blood nor lineage</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.11.text">Lineage is a chain of threads; to scorn one's blood is to attempt to cut that chain. Honor ancestors and the bonds of family, for they form the scaffolding of the Play.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb XII — Yeieb let jealousy nor hate corrupt you</div>
-                <p class="yeieb-detail-text">Jealousy tightens into the strangling knot of envy; hate drives the blade. Both corrupt perception and unravel intention; they are to be guarded against by prayer and reflection.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.12.title">Yeieb XII — Yeieb let jealousy nor hate corrupt you</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.12.text">Jealousy tightens into the strangling knot of envy; hate drives the blade. Both corrupt perception and unravel intention; they are to be guarded against by prayer and reflection.</p>
               </div>
               <div class="yeieb-detail-item">
-                <div class="yeieb-detail-title">Yeieb XIII — Yeieb let greed blind and overtake you</div>
-                <p class="yeieb-detail-text">Greed inactionally severs the generosity that binds community. It is the slow rot that makes gold a metal of the Gods rather than a token of humility. The faithful are admonished to live simply and to share.</p>
+                <div class="yeieb-detail-title" data-i18n="lav.yeieb.13.title">Yeieb XIII — Yeieb let greed blind and overtake you</div>
+                <p class="yeieb-detail-text" data-i18n="lav.yeieb.13.text">Greed inactionally severs the generosity that binds community. It is the slow rot that makes gold a metal of the Gods rather than a token of humility. The faithful are admonished to live simply and to share.</p>
               </div>
             </div>
           </div>
 
           <!-- Conflict, Justice, and the Sword -->
           <div class="subsection fade-in">
-            <h4>Conflict, Justice, and the Sword</h4>
+            <h4 data-i18n="lav.conflict.title">Conflict, Justice, and the Sword</h4>
             <div class="sacred-text">
-              <p>No Larrettian shall draw the blade except in righteousness. Let no hand rise in cruelty, oppression, or selfish desire. Violence born of anger, pride, or spite is a breach of the Thread and stains the spirit before Aenetshub. To strike without just cause is forbidden.</p>
-              <p>Unjust killing, assault, and the shedding of blood without necessity severs one's cord from the harmony of the Weave. A life may not be taken for convenience, amusement, dominance, or the settling of petty grievance. Yet retreat from rightful defense is not required. When faced with danger, oppression, or harm that cannot be resolved by peace alone, a Larrettian may stand firm. No shame rests upon the one who defends themselves, their family, or the helpless when all gentler paths have failed.</p>
-              <p>Justice must be the measure of every blow. If violence is taken up, it must be in proportion to the threat, with no excess, no cruelty, and no delight in injury. The sword must be guided not by passion, but by the steady hand of necessity and protection.</p>
-              <p>The innocent are never to be harmed. Let no Larrettian raise their hand against those who do not fight, the young, the weak, or those who surrender. To harm the defenseless is to tear a hole in the Weave that penance alone may not mend.</p>
-              <p>Conflict is a last resort, not a first choice. Peace, counsel, and reconciliation must always be sought before the turning to arms. Accountability before the Corducator and Professor. Any Larrettian who takes up arms must answer for their actions before the leaders of their community. No glory is found in needless war. Let those who fight do so with clear intention. When conflict ends, mercy must follow.</p>
+              <p data-i18n="lav.conflict.p1">No Larrettian shall draw the blade except in righteousness. Let no hand rise in cruelty, oppression, or selfish desire. Violence born of anger, pride, or spite is a breach of the Thread and stains the spirit before Aenetshub. To strike without just cause is forbidden.</p>
+              <p data-i18n="lav.conflict.p2">Unjust killing, assault, and the shedding of blood without necessity severs one's cord from the harmony of the Weave. A life may not be taken for convenience, amusement, dominance, or the settling of petty grievance. Yet retreat from rightful defense is not required. When faced with danger, oppression, or harm that cannot be resolved by peace alone, a Larrettian may stand firm. No shame rests upon the one who defends themselves, their family, or the helpless when all gentler paths have failed.</p>
+              <p data-i18n="lav.conflict.p3">Justice must be the measure of every blow. If violence is taken up, it must be in proportion to the threat, with no excess, no cruelty, and no delight in injury. The sword must be guided not by passion, but by the steady hand of necessity and protection.</p>
+              <p data-i18n="lav.conflict.p4">The innocent are never to be harmed. Let no Larrettian raise their hand against those who do not fight, the young, the weak, or those who surrender. To harm the defenseless is to tear a hole in the Weave that penance alone may not mend.</p>
+              <p data-i18n="lav.conflict.p5">Conflict is a last resort, not a first choice. Peace, counsel, and reconciliation must always be sought before the turning to arms. Accountability before the Corducator and Professor. Any Larrettian who takes up arms must answer for their actions before the leaders of their community. No glory is found in needless war. Let those who fight do so with clear intention. When conflict ends, mercy must follow.</p>
             </div>
           </div>
 
           <!-- Evil and Purification -->
           <div class="subsection fade-in">
-            <h4>Evil and Purification</h4>
-            <p>Evil is conceived as a darkness that infects the heart: greed that eats the thread of charity, cruelty that severs the string of compassion, mendacity that poisons the speech of community. The "Tongue of Evil" denotes slander, gaslighting, lies, and the willful distortion of truth. To speak the Tongue is to pull at the weave and let tangles spread.</p>
-            <p>Purification rites exist for those who have sullied themselves by transgression. A typical rite includes contrition, prayer before the Xasev, a cleansing with holy water blessed by a Corducator, and the renewal of the Shayr knot.</p>
+            <h4 data-i18n="lav.evil.title">Evil and Purification</h4>
+            <p data-i18n="lav.evil.p1">Evil is conceived as a darkness that infects the heart: greed that eats the thread of charity, cruelty that severs the string of compassion, mendacity that poisons the speech of community. The "Tongue of Evil" denotes slander, gaslighting, lies, and the willful distortion of truth. To speak the Tongue is to pull at the weave and let tangles spread.</p>
+            <p data-i18n="lav.evil.p2">Purification rites exist for those who have sullied themselves by transgression. A typical rite includes contrition, prayer before the Xasev, a cleansing with holy water blessed by a Corducator, and the renewal of the Shayr knot.</p>
           </div>
 
           <!-- Filth, Purity, and Lureth -->
           <div class="subsection fade-in">
-            <h4>Filth, Purity, and the Nature of Lureth and Ulreth</h4>
-            <p>Filth is both of the flesh and of the spirit. The concepts of <em>Lureth</em> and <em>Ulreth</em> extend far beyond the table — they are measures of harmony and disorder in all things, visible and unseen.</p>
-            <p><strong>Lureth</strong> is that which is permitted, clean, harmonious, and aligned with the Weave of Aenetshub. It is purity — not merely the absence of stain, but the active presence of rightness. A life lived with devotion, honesty, and fidelity to the Yeieb is Lureth. A people who suffer unjustly yet hold fast to their dignity are Lureth. A word spoken in truth and compassion is Lureth. To be Lureth is to be woven into the sacred Thread, bound to the Larrett's purpose, whole and unbroken.</p>
-            <p><strong>Ulreth</strong> is that which is forbidden, impure, severed from harmony, and corrosive to the Weave. It is disorder — not merely the presence of stain, but the active unraveling of rightness. An act of cruelty is Ulreth. A word spoken in slander or deceit is Ulreth. A people who murder the innocent and feast upon the suffering of others have brought Ulreth upon the world. To be Ulreth is to be cut from the sacred Thread, adrift in shadow, fraying at every edge.</p>
-            <p>These concepts govern not only what enters the body but what shapes the soul. The faithful apply Lureth and Ulreth to food and drink, to speech and action, to governance and justice, to the conduct of nations and the character of leaders. That which nourishes the Weave is Lureth; that which tears the Weave is Ulreth.</p>
+            <h4 data-i18n="lav.filth.title">Filth, Purity, and the Nature of Lureth and Ulreth</h4>
+            <p data-i18n="lav.filth.p1">Filth is both of the flesh and of the spirit. The concepts of <em>Lureth</em> and <em>Ulreth</em> extend far beyond the table — they are measures of harmony and disorder in all things, visible and unseen.</p>
+            <p data-i18n="lav.filth.p2"><strong>Lureth</strong> is that which is permitted, clean, harmonious, and aligned with the Weave of Aenetshub. It is purity — not merely the absence of stain, but the active presence of rightness. A life lived with devotion, honesty, and fidelity to the Yeieb is Lureth. A people who suffer unjustly yet hold fast to their dignity are Lureth. A word spoken in truth and compassion is Lureth. To be Lureth is to be woven into the sacred Thread, bound to the Larrett's purpose, whole and unbroken.</p>
+            <p data-i18n="lav.filth.p3"><strong>Ulreth</strong> is that which is forbidden, impure, severed from harmony, and corrosive to the Weave. It is disorder — not merely the presence of stain, but the active unraveling of rightness. An act of cruelty is Ulreth. A word spoken in slander or deceit is Ulreth. A people who murder the innocent and feast upon the suffering of others have brought Ulreth upon the world. To be Ulreth is to be cut from the sacred Thread, adrift in shadow, fraying at every edge.</p>
+            <p data-i18n="lav.filth.p4">These concepts govern not only what enters the body but what shapes the soul. The faithful apply Lureth and Ulreth to food and drink, to speech and action, to governance and justice, to the conduct of nations and the character of leaders. That which nourishes the Weave is Lureth; that which tears the Weave is Ulreth.</p>
 
-            <h5 style="margin-top:2rem; margin-bottom:1rem; text-align:center;">Dietary Laws — Lureth and Ulreth of the Table</h5>
-            <p>Regarding sustenance: foods that have borne sickness, parasites, or historic plague carry a stain not only upon the body but upon the Thread that binds each Larrettian. Pork and poultry are shunned as Ulreth of the table. The following laws govern what the faithful consume:</p>
+            <h5 style="margin-top:2rem; margin-bottom:1rem; text-align:center;" data-i18n="lav.diet.title">Dietary Laws — Lureth and Ulreth of the Table</h5>
+            <p data-i18n="lav.diet.intro">Regarding sustenance: foods that have borne sickness, parasites, or historic plague carry a stain not only upon the body but upon the Thread that binds each Larrettian. Pork and poultry are shunned as Ulreth of the table. The following laws govern what the faithful consume:</p>
 
             <table class="dietary-table" aria-label="Dietary Laws — Lureth and Ulreth">
               <thead>
                 <tr>
-                  <th scope="col">Category</th>
-                  <th scope="col">Type</th>
-                  <th scope="col">Foods</th>
+                  <th scope="col" data-i18n="lav.diet.th.cat">Category</th>
+                  <th scope="col" data-i18n="lav.diet.th.type">Type</th>
+                  <th scope="col" data-i18n="lav.diet.th.foods">Foods</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Land-dwellers</td>
-                  <td class="allowed">Lureth (Permitted)</td>
-                  <td>Cattle, oxen, bison, sheep, goats, deer</td>
+                  <td data-i18n="lav.diet.r1.cat">Land-dwellers</td>
+                  <td class="allowed" data-i18n="lav.diet.r1.type">Lureth (Permitted)</td>
+                  <td data-i18n="lav.diet.r1.food">Cattle, oxen, bison, sheep, goats, deer</td>
                 </tr>
                 <tr>
-                  <td>Land-dwellers</td>
-                  <td class="forbidden">Ulreth (Forbidden)</td>
-                  <td>Pork (swine), Poultry (chickens, ducks, geese)</td>
+                  <td data-i18n="lav.diet.r2.cat">Land-dwellers</td>
+                  <td class="forbidden" data-i18n="lav.diet.r2.type">Ulreth (Forbidden)</td>
+                  <td data-i18n="lav.diet.r2.food">Pork (swine), Poultry (chickens, ducks, geese)</td>
                 </tr>
                 <tr>
-                  <td>Waters</td>
-                  <td class="allowed">Lureth (Permitted)</td>
-                  <td>Fish with scales and fins, clean-water shellfish</td>
+                  <td data-i18n="lav.diet.r3.cat">Waters</td>
+                  <td class="allowed" data-i18n="lav.diet.r3.type">Lureth (Permitted)</td>
+                  <td data-i18n="lav.diet.r3.food">Fish with scales and fins, clean-water shellfish</td>
                 </tr>
                 <tr>
-                  <td>Waters</td>
-                  <td class="forbidden">Ulreth (Forbidden)</td>
-                  <td>Scavenging bottom-feeders</td>
+                  <td data-i18n="lav.diet.r4.cat">Waters</td>
+                  <td class="forbidden" data-i18n="lav.diet.r4.type">Ulreth (Forbidden)</td>
+                  <td data-i18n="lav.diet.r4.food">Scavenging bottom-feeders</td>
                 </tr>
                 <tr>
-                  <td>Drink</td>
-                  <td class="allowed">Permitted</td>
-                  <td>Pure water, herbal teas, milk from Lureth animals</td>
+                  <td data-i18n="lav.diet.r5.cat">Drink</td>
+                  <td class="allowed" data-i18n="lav.diet.r5.type">Permitted</td>
+                  <td data-i18n="lav.diet.r5.food">Pure water, herbal teas, milk from Lureth animals</td>
                 </tr>
                 <tr>
-                  <td>Drink</td>
-                  <td class="forbidden">Forbidden</td>
-                  <td>Rotten brews, strong intoxicants for the young</td>
+                  <td data-i18n="lav.diet.r6.cat">Drink</td>
+                  <td class="forbidden" data-i18n="lav.diet.r6.type">Forbidden</td>
+                  <td data-i18n="lav.diet.r6.food">Rotten brews, strong intoxicants for the young</td>
                 </tr>
               </tbody>
             </table>
@@ -636,26 +637,26 @@
 
           <!-- Holy Days -->
           <div class="subsection fade-in">
-            <h4>Holy Days</h4>
+            <h4 data-i18n="lav.holydays.title">Holy Days</h4>
 
             <div class="rite-card">
-              <h4>14 May — Ramm-Raau ("Doll Day")</h4>
-              <p>All work ceases and hands craft, tend, and finally release dolls to the flame, sending them to Osbeamn.</p>
+              <h4 data-i18n="lav.holydays.1.title">14 May — Ramm-Raau ("Doll Day")</h4>
+              <p data-i18n="lav.holydays.1.desc">All work ceases and hands craft, tend, and finally release dolls to the flame, sending them to Osbeamn.</p>
             </div>
 
             <div class="rite-card">
-              <h4>20 August — Peavsheb-Raau ("Feather Day")</h4>
-              <p>Honors the Corvids; feed and observe crows, meditate on freedom and wisdom.</p>
+              <h4 data-i18n="lav.holydays.2.title">20 August — Peavsheb-Raau ("Feather Day")</h4>
+              <p data-i18n="lav.holydays.2.desc">Honors the Corvids; feed and observe crows, meditate on freedom and wisdom.</p>
             </div>
 
             <div class="rite-card">
-              <h4>9 September — Benengeb-Raau ("Remembrance Day")</h4>
-              <p>Light incense for ancestors and beloved who have reached Osbeamn.</p>
+              <h4 data-i18n="lav.holydays.3.title">9 September — Benengeb-Raau ("Remembrance Day")</h4>
+              <p data-i18n="lav.holydays.3.desc">Light incense for ancestors and beloved who have reached Osbeamn.</p>
             </div>
 
             <div class="rite-card">
-              <h4>4 October — Larrett-Raau ("Aenetshub's Day")</h4>
-              <p>Greatest of all holy days; feasts, prayer, ceremony, and vials of Holy Water.</p>
+              <h4 data-i18n="lav.holydays.4.title">4 October — Larrett-Raau ("Aenetshub's Day")</h4>
+              <p data-i18n="lav.holydays.4.desc">Greatest of all holy days; feasts, prayer, ceremony, and vials of Holy Water.</p>
             </div>
           </div>
         </div>
@@ -667,51 +668,51 @@
     <section id="timeline" aria-label="Annual Timeline">
       <div class="container">
         <div class="section-header fade-in">
-          <h2>Annual Timeline</h2>
+          <h2 data-i18n="timeline.title">Annual Timeline</h2>
           <div class="thread-line"></div>
-          <p>A year in the life of a devotee</p>
+          <p data-i18n="timeline.subtitle">A year in the life of a devotee</p>
         </div>
 
         <div class="timeline fade-in">
           <div class="timeline-item">
-            <div class="timeline-date">January — March</div>
-            <div class="timeline-desc">Daily Practice &amp; Reflection — wear Shayr, weekly incense, meditate on parables P1–P3</div>
+            <div class="timeline-date" data-i18n="timeline.1.date">January — March</div>
+            <div class="timeline-desc" data-i18n="timeline.1.desc">Daily Practice &amp; Reflection — wear Shayr, weekly incense, meditate on parables P1–P3</div>
           </div>
           <div class="timeline-item">
-            <div class="timeline-date">April</div>
-            <div class="timeline-desc">Preparation for Ramm-Raau — craft dolls, cleanse altars</div>
+            <div class="timeline-date" data-i18n="timeline.2.date">April</div>
+            <div class="timeline-desc" data-i18n="timeline.2.desc">Preparation for Ramm-Raau — craft dolls, cleanse altars</div>
           </div>
           <div class="timeline-item holy-day">
-            <div class="timeline-date">14 May — Ramm-Raau</div>
-            <div class="timeline-desc">Doll Day — All work ceases; dolls are crafted, tended, and released to the flame</div>
+            <div class="timeline-date" data-i18n="timeline.3.date">14 May — Ramm-Raau</div>
+            <div class="timeline-desc" data-i18n="timeline.3.desc">Doll Day — All work ceases; dolls are crafted, tended, and released to the flame</div>
           </div>
           <div class="timeline-item">
-            <div class="timeline-date">June — July</div>
-            <div class="timeline-desc">Moral Reflection — focus on the 13 Yeieb, parables P4–P6, feed birds</div>
+            <div class="timeline-date" data-i18n="timeline.4.date">June — July</div>
+            <div class="timeline-desc" data-i18n="timeline.4.desc">Moral Reflection — focus on the 13 Yeieb, parables P4–P6, feed birds</div>
           </div>
           <div class="timeline-item holy-day">
-            <div class="timeline-date">20 August — Peavsheb-Raau</div>
-            <div class="timeline-desc">Feather Day — Honor the Corvids; feed and observe crows, meditate on freedom and wisdom</div>
+            <div class="timeline-date" data-i18n="timeline.5.date">20 August — Peavsheb-Raau</div>
+            <div class="timeline-desc" data-i18n="timeline.5.desc">Feather Day — Honor the Corvids; feed and observe crows, meditate on freedom and wisdom</div>
           </div>
           <div class="timeline-item">
-            <div class="timeline-date">September</div>
-            <div class="timeline-desc">Remembrance &amp; Reflection</div>
+            <div class="timeline-date" data-i18n="timeline.6.date">September</div>
+            <div class="timeline-desc" data-i18n="timeline.6.desc">Remembrance &amp; Reflection</div>
           </div>
           <div class="timeline-item holy-day">
-            <div class="timeline-date">9 September — Benengeb-Raau</div>
-            <div class="timeline-desc">Remembrance Day — Light incense for ancestors and beloved who have reached Osbeamn</div>
+            <div class="timeline-date" data-i18n="timeline.7.date">9 September — Benengeb-Raau</div>
+            <div class="timeline-desc" data-i18n="timeline.7.desc">Remembrance Day — Light incense for ancestors and beloved who have reached Osbeamn</div>
           </div>
           <div class="timeline-item holy-day">
-            <div class="timeline-date">4 October — Larrett-Raau</div>
-            <div class="timeline-desc">Aenetshub's Day — Greatest of all holy days; feasts, prayer, ceremony, and vials of Holy Water</div>
+            <div class="timeline-date" data-i18n="timeline.8.date">4 October — Larrett-Raau</div>
+            <div class="timeline-desc" data-i18n="timeline.8.desc">Aenetshub's Day — Greatest of all holy days; feasts, prayer, ceremony, and vials of Holy Water</div>
           </div>
           <div class="timeline-item">
-            <div class="timeline-date">November — December</div>
-            <div class="timeline-desc">Reflection &amp; Renewal</div>
+            <div class="timeline-date" data-i18n="timeline.9.date">November — December</div>
+            <div class="timeline-desc" data-i18n="timeline.9.desc">Reflection &amp; Renewal</div>
           </div>
           <div class="timeline-item">
-            <div class="timeline-date">Ongoing</div>
-            <div class="timeline-desc">Red rope (Shayr), incense offerings, prayer recitations, diet &amp; behavior observance</div>
+            <div class="timeline-date" data-i18n="timeline.10.date">Ongoing</div>
+            <div class="timeline-desc" data-i18n="timeline.10.desc">Red rope (Shayr), incense offerings, prayer recitations, diet &amp; behavior observance</div>
           </div>
         </div>
       </div>
@@ -721,29 +722,29 @@
     <section class="news-section" id="news" aria-label="News and Updates">
       <div class="container">
         <div class="section-header fade-in">
-          <h2>News &amp; Updates</h2>
+          <h2 data-i18n="news.title">News &amp; Updates</h2>
           <div class="thread-line"></div>
-          <p>Proclamations and announcements from the Corducator Council</p>
+          <p data-i18n="news.subtitle">Proclamations and announcements from the Corducator Council</p>
         </div>
 
         <div class="news-card fade-in">
           <div class="news-date">26/04/2026</div>
-          <h3 class="news-title">PROCLAMATION FROM THE CORDUCATOR COUNCIL OF ALBA</h3>
+          <h3 class="news-title" data-i18n="news.proclamation.title">PROCLAMATION FROM THE CORDUCATOR COUNCIL OF ALBA</h3>
           <div class="news-body">
-            <p>The Larrett of Puppets, Crows, and Dolls sees all threads, red and black. She watches the Weave of the world, and She weeps. For the Weave is being torn&mdash;not by fate, not by necessity, but by the hand that chooses the blade over the breath.</p>
-            <p>The Shamau of Aenetshub has watched the Southern Lands burn. We have seen the slaughter of the innocent, the crushing of the weak, and the systematic unmaking of a people.</p>
-            <p>Therefore, let it be known;</p>
+            <p data-i18n="news.p1">The Larrett of Puppets, Crows, and Dolls sees all threads, red and black. She watches the Weave of the world, and She weeps. For the Weave is being torn&mdash;not by fate, not by necessity, but by the hand that chooses the blade over the breath.</p>
+            <p data-i18n="news.p2">The Shamau of Aenetshub has watched the Southern Lands burn. We have seen the slaughter of the innocent, the crushing of the weak, and the systematic unmaking of a people.</p>
+            <p data-i18n="news.p3">Therefore, let it be known;</p>
 
-            <h4>On the State of Israel; A Fraying of the Sacred Thread:</h4>
-            <p>The State of Israel has brought Ulreth &mdash; impurity and disorder &mdash; upon the world. They have committed the ultimate violation of Yeieb I: Yeieb murder for no reason. To bomb the defenseless, to starve the child, to bury the living beneath the rubble&hellip; this is not war. This is not defense. This is the slaughter of the dolls for the sake of the sword.</p>
-            <p>The Larrett forbids the taking of life for dominance or petty grievance. By targeting the young, the weak, and those who surrender, Israel has severed itself from the harmony of the Weave. They have let greed and hate, forbidden by Yeieb XII and XIII&mdash;blind them.</p>
-            <p>This is evil. This is the Tongue of Evil manifested in steel and fire. To claim these murders are holy is to speak ill of the Larrett and to worship the False Gods of conquest.</p>
-            <p>The Shamau of Aenetshub therefore stands with the people of Palestine and the suffering of Lebanon. You are the threads being cut by a reckless hand. You are the dolls broken upon the floor, not because you danced poorly, but because the hand that holds you strikes with cruelty.</p>
-            <p>Yeieb VII commands: Yeieb hesitate to aid your own. Though we are far, our strings are tied to yours in humanity. We denounce the silence of the world. To stand by while a thread is cut is to be complicit in the tearing. We offer our prayers, our red ropes of protection, and our voice to say: Your suffering is seen. Your lives are Lureth (pure/sacred), and the crimes against you are an abomination.</p>
+            <h4 data-i18n="news.h4.israel">On the State of Israel; A Fraying of the Sacred Thread:</h4>
+            <p data-i18n="news.p4">The State of Israel has brought Ulreth &mdash; impurity and disorder &mdash; upon the world. They have committed the ultimate violation of Yeieb I: Yeieb murder for no reason. To bomb the defenseless, to starve the child, to bury the living beneath the rubble&hellip; this is not war. This is not defense. This is the slaughter of the dolls for the sake of the sword.</p>
+            <p data-i18n="news.p5">The Larrett forbids the taking of life for dominance or petty grievance. By targeting the young, the weak, and those who surrender, Israel has severed itself from the harmony of the Weave. They have let greed and hate, forbidden by Yeieb XII and XIII&mdash;blind them.</p>
+            <p data-i18n="news.p6">This is evil. This is the Tongue of Evil manifested in steel and fire. To claim these murders are holy is to speak ill of the Larrett and to worship the False Gods of conquest.</p>
+            <p data-i18n="news.p7">The Shamau of Aenetshub therefore stands with the people of Palestine and the suffering of Lebanon. You are the threads being cut by a reckless hand. You are the dolls broken upon the floor, not because you danced poorly, but because the hand that holds you strikes with cruelty.</p>
+            <p data-i18n="news.p8">Yeieb VII commands: Yeieb hesitate to aid your own. Though we are far, our strings are tied to yours in humanity. We denounce the silence of the world. To stand by while a thread is cut is to be complicit in the tearing. We offer our prayers, our red ropes of protection, and our voice to say: Your suffering is seen. Your lives are Lureth (pure/sacred), and the crimes against you are an abomination.</p>
 
-            <h4>To the State of Israel we say:</h4>
-            <p>Stop the pulling. Drop the sword. You are not the masters of fate; you are fraying your own cord. The Avatar at the gate of Osbeamn sees the blood on your hands.</p>
-            <p>Repent, for the red thread knows where you will end&hellip;</p>
+            <h4 data-i18n="news.h4.toisrael">To the State of Israel we say:</h4>
+            <p data-i18n="news.p9">Stop the pulling. Drop the sword. You are not the masters of fate; you are fraying your own cord. The Avatar at the gate of Osbeamn sees the blood on your hands.</p>
+            <p data-i18n="news.p10">Repent, for the red thread knows where you will end&hellip;</p>
           </div>
         </div>
       </div>
@@ -753,37 +754,37 @@
     <section id="hours" aria-label="Hours and Contact">
       <div class="container">
         <div class="section-header fade-in">
-          <h2>Hours &amp; Contact</h2>
+          <h2 data-i18n="hours.title">Hours &amp; Contact</h2>
           <div class="thread-line"></div>
-          <p>Weekly and Holy Day hours of observance</p>
+          <p data-i18n="hours.subtitle">Weekly and Holy Day hours of observance</p>
         </div>
 
         <div class="hours-grid fade-in">
           <div class="hours-card">
-            <h3>Regular Weekly Hours</h3>
+            <h3 data-i18n="hours.regular.title">Regular Weekly Hours</h3>
             <table class="hours-table" aria-label="Regular weekly hours">
               <thead>
                 <tr>
-                  <th scope="col">Day</th>
-                  <th scope="col">Hours</th>
+                  <th scope="col" data-i18n="hours.th.day">Day</th>
+                  <th scope="col" data-i18n="hours.th.hours">Hours</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Monday – Friday</td>
+                  <td data-i18n="hours.regular.monfri">Monday – Friday</td>
                   <td>16:00 – 24:00</td>
                 </tr>
                 <tr>
-                  <td>Saturday</td>
+                  <td data-i18n="hours.regular.sat">Saturday</td>
                   <td>12:00 – 24:00</td>
                 </tr>
                 <tr>
-                  <td>Sunday</td>
+                  <td data-i18n="hours.regular.sun">Sunday</td>
                   <td>10:00 – 20:00</td>
                 </tr>
               </tbody>
             </table>
-            <p style="margin-top:1rem; font-size:0.85rem; color:var(--text-muted);">
+            <p style="margin-top:1rem; font-size:0.85rem; color:var(--text-muted);" data-i18n="hours.regular.desc">
               <em>Weekday:</em> Evening prayers, incense offerings, meditation on parables, Shayr blessings, altar maintenance.<br>
               <em>Saturday:</em> Extended study of Holy Uven, community reflection sessions, moral teachings, optional ritual crafting.<br>
               <em>Sunday:</em> Morning prayers, feeding birds, communal discussions, teaching for new initiates.
@@ -791,7 +792,7 @@
           </div>
 
           <div class="hours-card">
-            <h3>Holy Day Hours</h3>
+            <h3 data-i18n="hours.holy.title">Holy Day Hours</h3>
             <table class="hours-table" aria-label="Holy Day hours">
               <thead>
                 <tr>
@@ -801,23 +802,24 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Ramm-Raau (14 May)</td>
+                  <td data-i18n="hours.holy.r1.day">Ramm-Raau (14 May)</td>
                   <td>08:00 – 24:00</td>
                 </tr>
                 <tr>
-                  <td>Peavsheb-Raau (20 Aug)</td>
+                  <td data-i18n="hours.holy.r2.day">Peavsheb-Raau (20 Aug)</td>
                   <td>08:00 – 22:00</td>
                 </tr>
                 <tr>
-                  <td>Benengeb-Raau (9 Sept)</td>
+                  <td data-i18n="hours.holy.r3.day">Benengeb-Raau (9 Sept)</td>
                   <td>09:00 – 21:00</td>
                 </tr>
                 <tr>
-                  <td>Larrett-Raau (4 Oct)</td>
+                  <td data-i18n="hours.holy.r4.day">Larrett-Raau (4 Oct)</td>
                   <td>08:00 – 24:00</td>
                 </tr>
               </tbody>
             </table>
+            <p style="margin-top:1rem; font-size:0.85rem; color:var(--text-muted);" data-i18n="hours.holy.desc"></p>
           </div>
         </div>
       </div>
@@ -828,17 +830,17 @@
   <!-- ======================== FOOTER ======================== -->
   <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <p class="footer-blessing">
+      <p class="footer-blessing" data-i18n="footer.blessing">
         "May Aenetshub grant you mercy, guide your strings, and bless your life with prosperity and purpose."
       </p>
-      <p class="footer-original">
+      <p class="footer-original" data-i18n="footer.original">
         "Lmabau va Aenetshub, aeyr naau tsh sbaxv aemm ap paush. Gammed"
       </p>
       <div class="footer-divider"></div>
-      <p class="footer-disclaimer">
+      <p class="footer-disclaimer" data-i18n="footer.disclaimer">
         This site presents the beliefs, practices, and teachings of the Shamau of Aenetshub — a living, spiritual path followed by devoted adherents. The Shamau of Aenetshub is not myth, parody, or fiction; it is a true faith upheld by a community of practitioners worldwide.
       </p>
-      <p class="footer-copyright">&copy; 2025 Shamau Of Aenetshub. All rights reserved.</p>
+      <p class="footer-copyright" data-i18n="footer.copyright">&copy; 2025 Shamau Of Aenetshub. All rights reserved.</p>
     </div>
   </footer>
 
@@ -846,6 +848,7 @@
   <button class="back-to-top" aria-label="Back to top" title="Back to top">&#8593;</button>
 
   <!-- JavaScript -->
+  <script src="lang.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
